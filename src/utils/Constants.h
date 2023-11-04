@@ -1,0 +1,34 @@
+#define ARRAY_SIZE(anArray) ( sizeof((anArray)) / sizeof((anArray[0])) )
+#define RANDOM_ARRAY_ELEMENT(anArray) anArray[rand() % ARRAY_SIZE(anArray)]
+#define KEY_PRESSSED_ONCE(key,newKeys,oldKeys) (((newKeys) & (key)) == (key) && ((oldKeys) & (key)) != (key))
+
+// Colors
+#define COLOR_FADE1 		0xE6E6E6E6
+#define COLOR_FADE2 		0xC8C8C8C8
+#define COLOR_FADE3 		0xAAAAAAAA
+#define COLOR_FADE4 		0x8C8C8C8C
+#define COLOR_FADE5 		0x6E6E6E6E
+
+#define COLOR_TRANSPARENT	0xFFFFFF00
+#define COLOR_MAGENTA 		0xFF00FFFF
+#define COLOR_GRAD1 		0xB4B5B7FF
+#define COLOR_GREEN 		0x33AA33AA
+#define COLOR_RED 			0xAA3333AA
+#define COLOR_LIGHTRED 		0xFF6347AA
+#define COLOR_LIGHTBLUE 	0x33CCFFAA
+#define COLOR_LIGHTGREEN 	0x9ACD32AA
+#define COLOR_YELLOW 		0xFFFF00AA
+#define COLOR_WHITE 		0xFFFFFFAA
+#define COLOR_PURPLE 		0xC2A2DAAA
+#define COLOR_BLACK 		0x000000FF
+#define COLOR_TURQUOISE 	0x48D1CCFF
+#define COLOR_GOLD 			0xFFD700FF
+#define COLOR_BLUE			0x3399FFAA
+#define COLOR_EMOTE 		0xC2A2DAAA
+#define COLOR_OOC 			0xE0FFFFAA
+#define COLOR_ORANGE 		0xFF9721AA
+#define COLOR_SYSTEM 		0xEFEFF7AA
+#define COLOR_HOTPINK 		0xFF0080FF
+#define COLOR_PINKISH 		0xFF8282AA
+
+#define COLOR_POLICE		COLOR_BLUE
