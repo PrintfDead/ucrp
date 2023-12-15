@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdio.h>
 #include <functional>
 #include <fmt/format.h>
@@ -7,16 +9,13 @@
 #include "../managers/PlayerManager.h"
 #include "Constants.h"
 
-#ifndef FLAGS_H
-#define FLAGS_H
-
-class AdminFlag {
+class IFlag {
 public:
     int admin_level;
     std::function<int(int)> error_message;
 };
 
-struct FLAG_User : public AdminFlag {
+struct FLAG_User : public IFlag {
     FLAG_User() {
         admin_level = 0;
         error_message = [](int playerid) -> int {
@@ -26,7 +25,7 @@ struct FLAG_User : public AdminFlag {
     }
 };
 
-struct FLAG_Helper : public AdminFlag {
+struct FLAG_Helper : public IFlag {
     FLAG_Helper() {
         admin_level = 1;
         error_message = [](int playerid) -> int {
@@ -36,7 +35,7 @@ struct FLAG_Helper : public AdminFlag {
     }
 };
 
-struct FLAG_Moderator : public AdminFlag {
+struct FLAG_Moderator : public IFlag {
     FLAG_Moderator() {
         admin_level = 2;
         error_message = [](int playerid) -> int {
@@ -45,5 +44,3 @@ struct FLAG_Moderator : public AdminFlag {
         };
     }
 };
-
-#endif // FLAGS_H

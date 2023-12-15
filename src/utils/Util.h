@@ -12,9 +12,6 @@
 #include <string>
 #include <random>
 
-#include "../game/Player.h"
-#include "../managers/ChatManager.h"
-
 static std::string ToLowerCase(std::string input);
 static std::string ToLowerCase(std::string input)
 {
@@ -24,21 +21,9 @@ static std::string ToLowerCase(std::string input)
 	return output;
 }
 
-static void ResetPlayerVariables(Player* player) {
-	player->SetAccountID(-1);
-	player->SetIP("127.0.0.1");
-	player->SetHealth(100);
-	player->SetArmor(0);
-	player->SetSkin(0);
-	player->SetColor(0);
-	player->SetSpawned(false);
-	player->SetFacingAngle(0.0);
-	player->SetVirtualWorld(0);
-	player->SetInterior(0);
-	player->StopAnimations();
-	player->SetEmail("none");
-	player->SetPassword("none");
-	player->SetNick("none");
+static bool ParseInt(const std::string& str, int& result) {
+    std::istringstream iss(str);
+    return !(iss >> result).fail() && iss.eof();
 }
 
 static std::string VectorToString(std::vector<std::string> tokens) {

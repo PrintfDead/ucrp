@@ -26,12 +26,6 @@ string Player::ParseName() {
 	return fmt::format("{} {}", _name[0], _name[1]);
 }
 
-bool Player::HasValidName(std::string _nick)
-{
-	std::size_t found = _nick.find("_");
-	return (found != std::string::npos);
-}
-
 // Account
 void Player::SetAccountID(int _id) {
 	aID = _id;

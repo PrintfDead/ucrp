@@ -1,6 +1,8 @@
 #include <string>
 
-#include "sampgdk.h"
+#include <sampgdk/core.h>
+#include <sampgdk/sdk.h>
+#include <sampgdk/interop.h>
 #include "streamer.hpp"
 
 namespace Plugins

@@ -32,3 +32,5 @@
 #define COLOR_PINKISH 		0xFF8282AA
 
 #define COLOR_POLICE		COLOR_BLUE
+
+#define MAX_SLOTS 5

@@ -29,16 +29,25 @@ void PlayerManager::SavePlayer(Player* player)
 
 	Point3D position = Point3DMake(x, y, z);
 
-	std::string sql = fmt::format("UPDATE Characters SET PositionX = '{}', PositionY = '{}', PositionZ = '{}', PositionR = '{}', Interior = '{}', VirtualWorld = '{}', Health = '{}', Kevlar = '{}', Skin = '{}', Crack = '{}' WHERE ID = '{}'",
+	std::string sql = fmt::format("UPDATE Characters SET PositionX = '{}', PositionY = '{}', PositionZ = '{}', PositionR = '{}', Interior = '{}', VirtualWorld = '{}', Health = '{}', Kevlar = '{}', Skin = '{}', Crack = '{}', HandRight = '{}', HandRightAmount = '{}', HandLeft = '{}', HandLeftAmount = '{}' WHERE ID = '{}'",
 		position.x, position.y, position.z,
 		angle,
 		interior, vw,
 		health, kevlar,
 		player->GetSkin(), player->GetCrack(),
+		player->Hand[0].item->ID, player->Hand[0].amount,
+		player->Hand[1].item->ID, player->Hand[1].amount,
 		player->GetCharacterID()
 	);
 
-	sampgdk::logprintf(sql.c_str());
+	std::string sql2 = fmt::format("UPDATE Inventories SET Slot1 = '{}', SlotAmount1 = '{}', Slot2 = '{}', SlotAmount2 = '{}', Slot3 = '{}', SlotAmount3 = '{}', Slot4 = '{}', SlotAmount4 = '{}', Slot5 = '{}', SlotAmount5 = '{}' WHERE ID = '{}'", 
+		player->Inventory[0].item->ID, player->Inventory[0].amount,
+		player->Inventory[1].item->ID, player->Inventory[1].amount,
+		player->Inventory[2].item->ID, player->Inventory[2].amount,
+		player->Inventory[3].item->ID, player->Inventory[3].amount,
+		player->Inventory[4].item->ID, player->Inventory[4].amount,
+		player->GetInventoryID()
+	);
 
 	if (sqlite3_open("ucrp.db", &db) == SQLITE_OK) {
 		sqlite3_prepare(db, sql.c_str(), -1, &stmt, NULL);
@@ -47,9 +56,21 @@ void PlayerManager::SavePlayer(Player* player)
 		if (rc != SQLITE_DONE) {
 			sampgdk::logprintf("Error en la consulta: %s", sqlite3_errmsg(db));
 		}
+
+		sqlite3_finalize(stmt);
 	}
 
-	sqlite3_finalize(stmt);
+	sqlite3_stmt *newstmt;
+
+	sqlite3_prepare(db, sql.c_str(), -1, &newstmt, NULL);
+	int rc = sqlite3_step(newstmt);
+
+	if (rc != SQLITE_DONE) {
+		sampgdk::logprintf("Error en la consulta: %s", sqlite3_errmsg(db));
+	}
+
+	sqlite3_finalize(newstmt);
+
     sqlite3_close(db);
 }
 

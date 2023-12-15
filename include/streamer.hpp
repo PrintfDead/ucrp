@@ -2,8 +2,11 @@
 #define STREAMER_H
 
 #include <string>
-
-#include "sampgdk.h"
+#include <sampgdk/a_samp.h>
+#include <sampgdk/a_players.h>
+#include <sampgdk/a_objects.h>
+#include <sampgdk/a_actor.h>
+#include <sampgdk/a_vehicles.h>
 
 // Definitions
 

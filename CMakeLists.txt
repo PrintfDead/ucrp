@@ -29,35 +29,45 @@ include_directories(
 set(UCRP_SOURCES
 	include/sqlite3.c
 	include/sqlite3.h
+	include/streamer.cpp
+	include/streamer.hpp
+	include/streamer.def
+	include/callbacks.cpp
 
 	src/main.cpp
 	src/main.def
+
+	src/structures/Inventory.h
 
 	src/game/Player.cpp
 	src/game/Player.h
 	src/game/Dialog.cpp
 	src/game/Dialog.h
+	src/game/Items.h
+	src/game/Message.cpp
+	src/game/Message.h
 
 	src/managers/PlayerManager.cpp
 	src/managers/PlayerManager.h
 	src/managers/CommandManager.cpp
 	src/managers/CommandManager.h
-	src/managers/ChatManager.cpp
-	src/managers/ChatManager.h
-
-	src/maps/SkatePark.h
-	src/maps/Cemetery.h
-	src/maps/Alhambra.h
+	src/managers/FloorManager.cpp
+	src/managers/FloorManager.h
 
 	src/commands/index.h
-	src/commands/users/index.h
 	src/commands/users/Chat.h
+	src/commands/users/Inventory.h
+	src/commands/admin/Moderator.h
 
-	src/utils/dialogs/PlayerConnect.h
+	src/dialogs/PlayerDialog.h
+	src/dialogs/InventoryDialog.h
 
 	src/utils/Constants.h
+	src/utils/Flags.h
 	src/utils/Point.h
 	src/utils/Util.h
+	src/utils/Player.h
+	src/utils/Objects.h
 	
 	${SAMPSDK_DIR}/amxplugin.cpp
 	${SAMPSDK_DIR}/plugin.h

@@ -7,6 +7,7 @@
 #include <sampgdk/core.h>
 #include "sqlite3.h"
 #include "../utils/Point.h"
+#include "../structures/Inventory.h"
 
 class Player
 {
@@ -19,7 +20,6 @@ public:
 	inline std::string GetName() const { return name; };
 	inline void SetName(std::string _name) { name = _name; };
 	std::string ParseName();
-	bool HasValidName(std::string _nick);
 
 	inline int GetID() const { return id; };
 	inline int GetCharacterID() const { return cID; };
@@ -27,7 +27,7 @@ public:
 
 	// Account
 	void SetAccountID(int id);
-	int  GetAccountID();
+	int GetAccountID();
 	void SetNick(std::string _nick);
 	std::string GetNick();
 	void SetEmail(std::string _email);
@@ -65,6 +65,9 @@ public:
 	inline int GetCrack() const { return crack; };
 	inline void SetCrack(int _crack) { crack = _crack; };
 
+	inline int GetInventoryID() const { return iID; };
+	inline void SetInventoryID(int id) { iID = id; };
+
 	// Functions
 
 	void GiveWeapon(int weaponID);
@@ -87,6 +90,10 @@ public:
 	void StartRunAnimation(int index);
 	void StopAnimations();
 	bool IsLoopingAnimation();
+
+	std::vector<IHand> Hand;
+	std::vector<ISlot> Inventory;
+	std::vector<ISlot> Bet;
 
 	// Temp Maps
 
@@ -116,33 +123,18 @@ protected:
 	int crack;
 	float health;
 	float kevlar;
+	int iID;
 
 	float connectedTime;
 
 	bool isSpawned;
 	bool isLoopingAnimation;
-
-	std::unordered_map<int, Player*> inventoryMap;
 };
 
-static void SpawnCharacter(Player *player) {
-	SpawnPlayer(player->GetID());
-
-	TogglePlayerSpectating(player->GetID(), false);
-    TogglePlayerControllable(player->GetID(), true);
-
-    SetPlayerHealth(player->GetID(), player->GetHealth());
-    SetPlayerArmour(player->GetID(), player->GetArmor());
-    SetPlayerSkin(player->GetID(), player->GetSkin());
-
-    Point3D position = player->GetPosition();
-
-    SetPlayerPos(player->GetID(), position.x, position.y, position.z);
-    SetPlayerFacingAngle(player->GetID(), player->GetFacingAngle());
-    SetPlayerInterior(player->GetID(), player->GetInterior());
-    SetPlayerVirtualWorld(player->GetID(), player->GetVirtualWorld());
-
-	player->SetSpawned(true);
+static bool HasValidName(std::string _nick)
+{
+	std::size_t found = _nick.find("_");
+	return (found != std::string::npos);
 }
 
 static void GetCharacters(Player *player, int accountid) {

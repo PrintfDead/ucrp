@@ -9,29 +9,32 @@
 
 #include "game/Player.h"
 #include "game/Dialog.h"
+#include "game/Items.h"
+#include "game/Message.h"
 #include "managers/PlayerManager.h"
 #include "managers/CommandManager.h"
-#include "maps/Alhambra.h"
-#include "maps/Cemetery.h"
-#include "maps/SkatePark.h"
 #include "commands/index.h"
-#include "utils/dialogs/PlayerConnect.h"
+#include "dialogs/PlayerDialog.h"
+#include "structures/Inventory.h"
 #include "utils/Constants.h"
 #include "utils/Util.h"
+#include "utils/Objects.h"
+#include "utils/Player.h"
+
 
 using namespace std;
 static CommandManager* commandManager = new CommandManager;
 
 void SAMPGDK_CALL AccessServer(int timerid, void* params) {
     SendRconCommand("password 0");
-    SendRconCommand("hostname [0.3DL] United Capital Roleplay - Juego de Rol");
+    SendRconCommand("hostname United Capital Roleplay - Juego de Rol");
 
     sampgdk::logprintf("Server Open!");
 }
 
 PLUGIN_EXPORT bool PLUGIN_CALL OnGameModeInit() {
     sampgdk::logprintf("----------------------------------");
-    sampgdk::logprintf(" United Capital: Roleplay");
+    sampgdk::logprintf("    United Capital: Roleplay");
     sampgdk::logprintf("----------------------------------");
 
     UsePlayerPedAnims();
@@ -44,15 +47,11 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnGameModeInit() {
 
     SetGameModeText("Hello, World!");
     SendRconCommand("password loadserverwaitplease");
-    SendRconCommand("mapname Washington");
+    SendRconCommand("mapname San Fierro");
     SendRconCommand("language Spanish");
-    SendRconCommand("hostname [0.3DL] United Capital Roleplay - Cargando...");
+    SendRconCommand("hostname United Capital Roleplay - Cargando...");
 
     RegisterAllModulesCommands();
-
-    Alhambra();
-    Cemetery();
-    SkatePark();
 
     AddPlayerClass(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
@@ -67,10 +66,6 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnGameModeExit() {
 PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerConnect(int playerid) {
     Player* player = new Player(playerid);
     PlayerManager::AddPlayer(player);
-
-    AlhambraRemoveBuilding(playerid);
-    CemeteryRemoveBuilding(playerid);
-    SkateParkRemoveBuilding(playerid);
 
     ResetPlayerVariables(player);
 
@@ -90,14 +85,15 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerRequestClass(int playerid, int classid) {
     Player* player = PlayerManager::GetPlayer(playerid);
 
     if (!player->IsSpawned()) {
+        SpawnPlayer(playerid);
         TogglePlayerSpectating(playerid, true);
         TogglePlayerControllable(playerid, false);
         SetPlayerName(playerid, fmt::format("Conectando_{}", playerid).c_str());
 
         Dialog* SelectMenu = new Dialog("UserSelectMenu", DIALOG_STYLE_LIST);
 
-        SelectMenu->Caption("Selecciona una opcione.");
-        SelectMenu->Information("Iniciar Sesion\nRegistrarse\nNotas de version");
+        SelectMenu->Caption("{FFFFFF}Selecciona una opcione.");
+        SelectMenu->Information("{062037}> {FFFFFF}Iniciar Sesion\n{062037}> {FFFFFF}Registrarse\n{062037}> {FFFFFF}Notas de version");
         SelectMenu->Buttons("Siguiente", "Cancelar");
         SelectMenu->OnResponse = SelectMenuResponse;
         SelectMenu->ShowToPlayer(player->GetID());
@@ -132,6 +128,24 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerSpawn(int playerid) {
         SetPlayerInterior(playerid, player->GetInterior());
         SetPlayerVirtualWorld(playerid, player->GetVirtualWorld());
 
+        RemovePlayerAttachedObject(player->GetID(), 7);
+        RemovePlayerAttachedObject(player->GetID(), 8);
+
+        ResetPlayerWeapons(player->GetID());
+
+        if (player->Hand[0].item->ID != 0) {
+            if (player->Hand[0].item->IDGun > 0) {
+                if (player->Hand[0].amount > 0) {
+                    GivePlayerWeapon(player->GetID(), player->Hand[0].item->IDGun, player->Hand[0].amount);
+                }
+            }
+
+            PutObject(player, 0, player->Hand[0].item->IDGun);
+        }
+        if (player->Hand[1].item->ID != 0) {
+            PutObject(player, 1, player->Hand[1].item->IDGun);
+        }
+
         ApplyAnimation(playerid, "WUZI", "CZ_Dead_Guy", 4.0f, false, true, true, true, 0, true);
     }
 
@@ -158,6 +172,27 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerDeath(int playerid, int killerid, int rea
     return true;
 }
 
+PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerText(int playerid, const char* txt) {
+    Player* player = PlayerManager::GetPlayer(playerid);
+
+    if (player->IsSpawned()) {
+        std::string text = std::string(txt);
+
+        if (text.length() > 64) {
+            Message::Proximity(player, fmt::format("{} dice: {}...", player->ParseName(), text.substr(0, 64)), 20.0f, COLOR_FADE1, COLOR_FADE2, COLOR_FADE3, COLOR_FADE4, COLOR_FADE5);
+            Message::Proximity(player, fmt::format("...{}", text.substr(64)), 20.0f, COLOR_FADE1, COLOR_FADE2, COLOR_FADE3, COLOR_FADE4, COLOR_FADE5);
+        
+            return 0;
+        }
+
+        Message::Proximity(player, fmt::format("{} dice: {}", player->ParseName(), text), 20.0f, COLOR_FADE1, COLOR_FADE2, COLOR_FADE3, COLOR_FADE4, COLOR_FADE5);
+
+        return 0;
+    }
+
+    return true;
+}
+
 PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerCommandText(int playerid, const char* cmdtext) {
     return commandManager->OnPlayerCommandText(PlayerManager::GetPlayer(playerid), string(cmdtext));
 }
@@ -175,29 +210,6 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnDialogResponse(int playerid, int dialogid, int 
     }
 
     return true;
-}
-
-PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerText(int playerid, const char* text) {
-    Player* player = PlayerManager::GetPlayer(playerid);
-
-    if (player->IsSpawned()) {
-        sampgdk::logprintf(text);
-        std::string text = std::string(text);
-        sampgdk::logprintf(text.c_str());
-
-        if (text.length() > 64) {
-            ChatManager::ProximityMessage(player, fmt::format("{}: {}...", player->ParseName(), text.substr(0, 64)), 20.0f, COLOR_FADE1, COLOR_FADE2, COLOR_FADE3, COLOR_FADE4, COLOR_FADE5);
-            ChatManager::ProximityMessage(player, fmt::format("...{}", text.substr(64)), 20.0f, COLOR_FADE1, COLOR_FADE2, COLOR_FADE3, COLOR_FADE4, COLOR_FADE5);
-            
-            return 0;
-        }
-
-        ChatManager::ProximityMessage(player, fmt::format("{}: {}", player->ParseName(), std::string(text)), 20.0f, COLOR_FADE1, COLOR_FADE2, COLOR_FADE3, COLOR_FADE4, COLOR_FADE5);
-
-        return 0;
-    }
-
-    return 0;
 }
 
 PLUGIN_EXPORT unsigned int PLUGIN_CALL Supports() {

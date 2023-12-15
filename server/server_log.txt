@@ -1148,3 +1148,4538 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [02:13:09] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
 [02:13:40] UPDATE Characters SET PositionX = '1814.8982', PositionY = '-1613.9729', PositionZ = '13.383831', PositionR = '238.35794', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
 [02:13:40] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:08:20] 
+[17:08:20] Server Plugins
+[17:08:20] --------------
+[17:08:20]  Loading plugin: crashdetect.dll
+[17:08:26]   CrashDetect plugin 4.21
+[17:08:26]   Loaded.
+[17:08:26]  Loading plugin: ucrp.dll
+[17:08:27]   Loaded.
+[17:08:27]  Loaded 2 plugins.
+
+[17:08:27] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[17:08:27] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[17:08:27] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[17:08:27] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[17:08:27] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[17:08:28] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[17:08:28] 
+[17:08:28] Filterscripts
+[17:08:28] ---------------
+[17:08:28]   Loaded 0 filterscripts.
+
+[17:08:28] ----------------------------------
+[17:08:28]  United Capital: Roleplay
+[17:08:28] ----------------------------------
+[17:08:28] Setting server password to: "loadserverwaitplease"
+[17:08:28] Number of vehicle models: 0
+[17:08:38] Server password has been removed.
+[17:08:38] Server Open!
+[17:09:43] [connection] incoming connection: 127.0.0.1:50223 id: 0
+[17:09:43] [join] Printf has joined the server (0:127.0.0.1)
+[17:10:14] asdasdadasd
+[17:10:14] [debug] Server crashed due to an unknown error
+[17:10:15] [debug] Native backtrace:
+[17:10:15] [debug] #0 7520d982 in ?? () in C:\WINDOWS\System32\KERNELBASE.dll
+[17:10:15] [debug] #1 6e43a250 in ?? () in C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll
+[17:10:15] [debug] #2 6b7e194c in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #3 6b7df510 in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #4 6b74fbec in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #5 6b742e0b in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #6 6b742d95 in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #7 6b755650 in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #8 6b74b65c in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #9 6b742a6b in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #10 6b714997 in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #11 6b7c6d1f in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #12 6b7da241 in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #13 6b7dce2f in ?? () in plugins\ucrp.dll
+[17:10:15] [debug] #14 0046dee2 in ?? () in samp-server.exe
+[17:10:15] [debug] Registers:
+[17:10:15] [debug] EAX: 0019f4a0 EBX: 0000000b ECX: 00000003 EDX: 00000000
+[17:10:15] [debug] ESI: 0019f75c EDI: 0019f604 EBP: 0019f4f8 ESP: 0019f4a0
+[17:10:15] [debug] EIP: 7520d982 EFLAGS: 00000216
+[17:10:15] [debug] Stack:
+[17:10:15] [debug] ESP+00000000: e06d7363 00000001 00000000 7520d982
+[17:10:15] [debug] ESP+00000020: 0019f4c8 0019f75c 00000000 0019f4e4
+[17:10:15] [debug] ESP+00000040: 00000008 0019f4f4 0019f4f8 6b4c0136
+[17:10:15] [debug] ESP+00000060: e06d7363 00000001 00000003 0019f510
+[17:10:15] [debug] ESP+00000080: 19930520 0019f544 0019f53c 6b7e1916
+[17:10:15] [debug] ESP+000000a0: 6b80b4a8 6b7fcd7c 6b804a04 00000000
+[17:10:15] [debug] ESP+000000c0: 6b74fbec 80000027 0019f584 6b742e0b
+[17:10:15] [debug] ESP+000000e0: 80000027 0019f590 6b742d95 80000000
+[17:10:15] [debug] ESP+00000100: 0019f610 6b74b65c 80000000 84b24290
+[17:10:15] [debug] ESP+00000120: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000140: cccccccc cccccccc cccccccc 0019f5e7
+[17:10:15] [debug] ESP+00000160: 0019f724 0019fb34 6b7e77b5 00000001
+[17:10:15] [debug] ESP+00000180: 6b7fb85c 00000008 cccccccc cccccccc
+[17:10:15] [debug] ESP+000001a0: 00000008 0019f74c 6b714997 0019f724
+[17:10:15] [debug] ESP+000001c0: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+000001e0: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000200: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000220: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000240: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000260: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000280: cccccccc 00750f80 00000000 00000000
+[17:10:15] [debug] ESP+000002a0: cccccccc 0072abe8 84b243cc 0019f784
+[17:10:15] [debug] ESP+000002c0: cccccccc cccccccc cccccccc 00750a78
+[17:10:15] [debug] ESP+000002e0: cccccccc 0019f86c 6b7da241 0283bd30
+[17:10:15] [debug] ESP+00000300: cccccccc cccccccc 00cccccc cccccccc
+[17:10:15] [debug] ESP+00000320: 0071ce6c 6b600000 00000000 cccccccc
+[17:10:15] [debug] ESP+00000340: 00000008 00000000 00000000 cccccccc
+[17:10:15] [debug] ESP+00000360: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+00000380: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+000003a0: cccccccc cccccccc cccccccc cccccccc
+[17:10:15] [debug] ESP+000003c0: cccccccc cccccccc 84b24cec 0019f8a8
+[17:10:15] [debug] ESP+000003e0: 0019f8ec 0283bd30 cccccccc cccccccc
+[17:10:15] [debug] Loaded modules:
+[17:10:15] [debug] 00400000 - 0051f000 samp-server.exe
+[17:10:15] [debug] 771d0000 - 77374000 ntdll.dll
+[17:10:15] [debug] 76dd0000 - 76ec0000 KERNEL32.DLL
+[17:10:15] [debug] 750d0000 - 7530a000 KERNELBASE.dll
+[17:10:15] [debug] 6de60000 - 6deff000 apphelp.dll
+[17:10:15] [debug] 76750000 - 76d07000 SHELL32.dll
+[17:10:15] [debug] 76300000 - 7637b000 msvcp_win.dll
+[17:10:15] [debug] 75940000 - 75a60000 ucrtbase.dll
+[17:10:15] [debug] 75bc0000 - 75d5c000 USER32.dll
+[17:10:15] [debug] 75370000 - 75388000 win32u.dll
+[17:10:15] [debug] 75340000 - 75364000 GDI32.dll
+[17:10:15] [debug] 764d0000 - 765b8000 gdi32full.dll
+[17:10:15] [debug] 74310000 - 74318000 WSOCK32.dll
+[17:10:15] [debug] 75600000 - 756bf000 msvcrt.dll
+[17:10:15] [debug] 765c0000 - 76623000 WS2_32.dll
+[17:10:15] [debug] 6cc80000 - 6cca8000 WINMM.dll
+[17:10:15] [debug] 75a60000 - 75b1f000 RPCRT4.dll
+[17:10:15] [debug] 75310000 - 75335000 IMM32.DLL
+[17:10:15] [debug] 6e4d0000 - 6e559000 crashdetect.dll
+[17:10:15] [debug] 6d930000 - 6d9a1000 MSVCP120.dll
+[17:10:15] [debug] 6d6b0000 - 6d79e000 MSVCR120.dll
+[17:10:15] [debug] 6b600000 - 6b83b000 ucrp.dll
+[17:10:15] [debug] 6d870000 - 6d922000 MSVCP140D.dll
+[17:10:15] [debug] 6e430000 - 6e44e000 VCRUNTIME140D.dll
+[17:10:15] [debug] 6b450000 - 6b5f5000 ucrtbased.dll
+[17:10:15] [debug] 742b0000 - 74302000 mswsock.dll
+[17:10:15] [debug] 6cb80000 - 6cb91000 napinsp.dll
+[17:10:15] [debug] 75d60000 - 75dd6000 sechost.dll
+[17:10:15] [debug] 6cb60000 - 6cb76000 pnrpnsp.dll
+[17:10:15] [debug] 6cb50000 - 6cb60000 wshbth.dll
+[17:10:15] [debug] 6cb30000 - 6cb46000 NLAapi.dll
+[17:10:15] [debug] 73b10000 - 73b42000 IPHLPAPI.DLL
+[17:10:15] [debug] 73b50000 - 73be0000 DNSAPI.dll
+[17:10:15] [debug] 77030000 - 77037000 NSI.dll
+[17:10:15] [debug] 6cb20000 - 6cb2e000 winrnr.dll
+[17:10:15] [debug] 73ab0000 - 73b09000 fwpuclnt.dll
+[17:10:15] [debug] 76430000 - 76449000 bcrypt.dll
+[17:10:15] [debug] 73aa0000 - 73aa8000 rasadhlp.dll
+[17:10:15] [debug] 76d10000 - 76d6f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:24:12] 
+[19:24:12] Server Plugins
+[19:24:12] --------------
+[19:24:12]  Loading plugin: crashdetect.dll
+[19:24:12]   CrashDetect plugin 4.21
+[19:24:12]   Loaded.
+[19:24:12]  Loading plugin: ucrp.dll
+[19:24:12]   Loaded.
+[19:24:12]  Loaded 2 plugins.
+
+[19:24:13] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[19:24:13] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[19:24:13] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[19:24:13] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[19:24:13] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[19:24:13] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[19:24:13] 
+[19:24:13] Filterscripts
+[19:24:13] ---------------
+[19:24:13]   Loaded 0 filterscripts.
+
+[19:24:13] ----------------------------------
+[19:24:13]  United Capital: Roleplay
+[19:24:13] ----------------------------------
+[19:24:13] Setting server password to: "loadserverwaitplease"
+[19:24:13] Number of vehicle models: 0
+[19:24:23] Server password has been removed.
+[19:24:23] Server Open!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:28:25] 
+[19:28:25] Server Plugins
+[19:28:25] --------------
+[19:28:25]  Loading plugin: crashdetect.dll
+[19:28:25]   CrashDetect plugin 4.21
+[19:28:25]   Loaded.
+[19:28:25]  Loading plugin: ucrp.dll
+[19:28:25]   Loaded.
+[19:28:25]  Loaded 2 plugins.
+
+[19:28:25] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[19:28:25] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[19:28:25] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[19:28:25] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[19:28:25] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[19:28:25] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[19:28:25] 
+[19:28:25] Filterscripts
+[19:28:25] ---------------
+[19:28:25]   Loaded 0 filterscripts.
+
+[19:28:25] ----------------------------------
+[19:28:25]  United Capital: Roleplay
+[19:28:25] ----------------------------------
+[19:28:25] Setting server password to: "loadserverwaitplease"
+[19:28:25] Number of vehicle models: 0
+[19:28:35] Server password has been removed.
+[19:28:35] Server Open!
+[19:28:40] [connection] incoming connection: 127.0.0.1:65125 id: 0
+[19:28:40] [join] Printf has joined the server (0:127.0.0.1)
+[19:29:25] UPDATE Characters SET PositionX = '1915.1691', PositionY = '-1440.3093', PositionZ = '17.48871', PositionR = '83.27647', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[19:29:26] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[23:34:26] 
+[23:34:26] Server Plugins
+[23:34:26] --------------
+[23:34:26]  Loading plugin: crashdetect.dll
+[23:34:26]   CrashDetect plugin 4.21
+[23:34:26]   Loaded.
+[23:34:26]  Loading plugin: ucrp.dll
+[23:34:27]   Loaded.
+[23:34:27]  Loaded 2 plugins.
+
+[23:34:27] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[23:34:27] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[23:34:27] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[23:34:27] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[23:34:27] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[23:34:27] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[23:34:27] 
+[23:34:27] Filterscripts
+[23:34:27] ---------------
+[23:34:27]   Loaded 0 filterscripts.
+
+[23:34:27] ----------------------------------
+[23:34:27]  United Capital: Roleplay
+[23:34:27] ----------------------------------
+[23:34:27] Setting server password to: "loadserverwaitplease"
+[23:34:27] Number of vehicle models: 0
+[23:34:37] Server password has been removed.
+[23:34:37] Server Open!
+[23:34:42] [connection] incoming connection: 127.0.0.1:50587 id: 0
+[23:34:42] [join] Printf has joined the server (0:127.0.0.1)
+[23:35:21] UPDATE Characters SET PositionX = '1914.0726', PositionY = '-1441.032', PositionZ = '17.774014', PositionR = '83.27647', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[23:35:22] [part] Gianluca_Bianchi has left the server (0:1)
+[23:35:28] [connection] incoming connection: 127.0.0.1:58671 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:11:16] 
+[01:11:16] Server Plugins
+[01:11:16] --------------
+[01:11:16]  Loading plugin: crashdetect.dll
+[01:11:16]   CrashDetect plugin 4.21
+[01:11:16]   Loaded.
+[01:11:16]  Loading plugin: ucrp.dll
+[01:11:16]   Loaded.
+[01:11:16]  Loaded 2 plugins.
+
+[01:11:16] 
+[01:11:16] Filterscripts
+[01:11:16] ---------------
+[01:11:16]   Loaded 0 filterscripts.
+
+[01:11:16] ----------------------------------
+[01:11:16]  United Capital: Roleplay
+[01:11:16] ----------------------------------
+[01:11:16] Setting server password to: "loadserverwaitplease"
+[01:11:16] Number of vehicle models: 0
+[01:11:26] Server password has been removed.
+[01:11:26] Server Open!
+[01:11:42] [connection] incoming connection: 127.0.0.1:55936 id: 0
+[01:11:57] [connection] incoming connection: 127.0.0.1:55230 id: 0
+[01:12:07] [connection] incoming connection: 127.0.0.1:55231 id: 0
+[01:12:22] [connection] incoming connection: 127.0.0.1:56013 id: 0
+[01:12:32] [connection] incoming connection: 127.0.0.1:63015 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:12:37] 
+[01:12:37] Server Plugins
+[01:12:37] --------------
+[01:12:37]  Loading plugin: crashdetect.dll
+[01:12:37]   CrashDetect plugin 4.21
+[01:12:37]   Loaded.
+[01:12:37]  Loading plugin: ucrp.dll
+[01:12:37]   Loaded.
+[01:12:37]  Loaded 2 plugins.
+
+[01:12:37] 
+[01:12:37] Filterscripts
+[01:12:37] ---------------
+[01:12:37]   Loaded 0 filterscripts.
+
+[01:12:37] ----------------------------------
+[01:12:37]  United Capital: Roleplay
+[01:12:37] ----------------------------------
+[01:12:37] Setting server password to: "loadserverwaitplease"
+[01:12:37] Number of vehicle models: 0
+[01:12:47] Server password has been removed.
+[01:12:47] Server Open!
+[01:12:52] [connection] incoming connection: 127.0.0.1:54755 id: 0
+[01:13:02] [connection] incoming connection: 127.0.0.1:57315 id: 0
+[01:25:17] [connection] incoming connection: 127.0.0.1:51465 id: 0
+[01:25:17] [join] Printf has joined the server (0:127.0.0.1)
+[01:28:57] asdasdasd
+[01:28:57] [debug] Server crashed due to an unknown error
+[01:28:57] [debug] Native backtrace:
+[01:28:57] [debug] #0 75b2d982 in ?? () in C:\WINDOWS\System32\KERNELBASE.dll
+[01:28:57] [debug] #1 6803a250 in ?? () in C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll
+[01:28:57] [debug] #2 6399194c in ?? () in plugins\ucrp.dll
+[01:28:57] [debug] #3 6398f510 in ?? () in plugins\ucrp.dll
+[01:28:57] [debug] #4 638ff82c in ?? () in plugins\ucrp.dll
+[01:28:57] [debug] #5 63890e4b in ?? () in plugins\ucrp.dll
+[01:28:57] [debug] #6 63890de5 in ?? () in plugins\ucrp.dll
+[01:28:57] [debug] #7 638985b0 in ?? () in plugins\ucrp.dll
+[01:28:57] [debug] #8 63893d0c in ?? () in plugins\ucrp.dll
+[01:28:58] [debug] #9 63890d3b in ?? () in plugins\ucrp.dll
+[01:28:58] [debug] #10 638c495c in ?? () in plugins\ucrp.dll
+[01:28:58] [debug] #11 63976d1f in ?? () in plugins\ucrp.dll
+[01:28:58] [debug] #12 6398a241 in ?? () in plugins\ucrp.dll
+[01:28:58] [debug] #13 6398ce2f in ?? () in plugins\ucrp.dll
+[01:28:58] [debug] #14 0046dc02 in ?? () in samp-server.exe
+[01:28:58] [debug] Registers:
+[01:28:58] [debug] EAX: 0019f568 EBX: 00000009 ECX: 00000003 EDX: 00000000
+[01:28:58] [debug] ESI: 0019f764 EDI: 0019f6cc EBP: 0019f5c0 ESP: 0019f568
+[01:28:58] [debug] EIP: 75b2d982 EFLAGS: 00000212
+[01:28:58] [debug] Stack:
+[01:28:58] [debug] ESP+00000000: e06d7363 00000001 00000000 75b2d982
+[01:28:58] [debug] ESP+00000020: 0019f590 0019f764 00000000 0019f5ac
+[01:28:58] [debug] ESP+00000040: 00000008 0019f5bc 0019f5c0 634a0136
+[01:28:58] [debug] ESP+00000060: e06d7363 00000001 00000003 0019f5d8
+[01:28:58] [debug] ESP+00000080: 19930520 0019f60c 0019f604 63991916
+[01:28:58] [debug] ESP+000000a0: 639bb4a8 639acd7c 639b4a04 00000000
+[01:28:58] [debug] ESP+000000c0: 638ff82c 80000027 0019f64c 63890e4b
+[01:28:58] [debug] ESP+000000e0: 80000027 0019f658 63890de5 80000000
+[01:28:58] [debug] ESP+00000100: 0019f6d8 63893d0c 80000000 0d801079
+[01:28:58] [debug] ESP+00000120: cccccccc cccccccc cccccccc cccccccc
+[01:28:58] [debug] ESP+00000140: cccccccc cccccccc cccccccc 0019f6af
+[01:28:58] [debug] ESP+00000160: 0019f72c 0019fb3c 639977b5 00000001
+[01:28:58] [debug] ESP+00000180: 639ab85c 00000008 cccccccc cccccccc
+[01:28:58] [debug] ESP+000001a0: 00000008 0019f754 638c495c 0019f72c
+[01:28:58] [debug] ESP+000001c0: cccccccc 006b9200 00000000 00000000
+[01:28:58] [debug] ESP+000001e0: cccccccc 0067eba8 0d8011f5 0019f78c
+[01:28:58] [debug] ESP+00000200: cccccccc cccccccc cccccccc 006b9698
+[01:28:58] [debug] ESP+00000220: cccccccc 0019f874 6398a241 0294a818
+[01:28:58] [debug] ESP+00000240: cccccccc cccccccc 00cccccc cccccccc
+[01:28:58] [debug] ESP+00000260: 00687448 637b0000 00000000 cccccccc
+[01:28:58] [debug] ESP+00000280: 00000008 00000000 00000000 cccccccc
+[01:28:58] [debug] ESP+000002a0: cccccccc cccccccc cccccccc cccccccc
+[01:28:58] [debug] ESP+000002c0: cccccccc cccccccc cccccccc cccccccc
+[01:28:58] [debug] ESP+000002e0: cccccccc cccccccc cccccccc cccccccc
+[01:28:58] [debug] ESP+00000300: cccccccc cccccccc 0d801ed5 0019f8b0
+[01:28:58] [debug] ESP+00000320: 0019f8f4 0294a818 cccccccc cccccccc
+[01:28:58] [debug] ESP+00000340: 00000000 00000002 00000000 0046dc02
+[01:28:58] [debug] ESP+00000360: 00000000 0294a818 0019f8f8 0019f900
+[01:28:58] [debug] ESP+00000380: 0019fb48 02afdce0 00000000 00000001
+[01:28:58] [debug] ESP+000003a0: 0237eb78 0019fb54 0237d701 cccccccc
+[01:28:58] [debug] ESP+000003c0: 00000064 00000000 00000000 00000000
+[01:28:58] [debug] ESP+000003e0: 00000000 00000000 00000000 00000000
+[01:28:58] [debug] Loaded modules:
+[01:28:58] [debug] 00400000 - 00519000 samp-server.exe
+[01:28:58] [debug] 77860000 - 77a04000 ntdll.dll
+[01:28:58] [debug] 76650000 - 76740000 KERNEL32.DLL
+[01:28:58] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[01:28:58] [debug] 76b30000 - 770e7000 SHELL32.dll
+[01:28:58] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[01:28:58] [debug] 75870000 - 75990000 ucrtbase.dll
+[01:28:58] [debug] 770f0000 - 7728c000 USER32.dll
+[01:28:58] [debug] 77510000 - 77528000 win32u.dll
+[01:28:58] [debug] 76a10000 - 76a34000 GDI32.dll
+[01:28:58] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[01:28:58] [debug] 75410000 - 75418000 WSOCK32.dll
+[01:28:58] [debug] 77530000 - 775ef000 msvcrt.dll
+[01:28:58] [debug] 777e0000 - 77843000 WS2_32.dll
+[01:28:58] [debug] 76810000 - 768cf000 RPCRT4.dll
+[01:28:58] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[01:28:58] [debug] 77370000 - 77395000 IMM32.DLL
+[01:28:58] [debug] 65af0000 - 65b79000 crashdetect.dll
+[01:28:58] [debug] 65930000 - 659a1000 MSVCP120.dll
+[01:28:58] [debug] 64090000 - 6417e000 MSVCR120.dll
+[01:28:58] [debug] 637b0000 - 639eb000 ucrp.dll
+[01:28:58] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[01:28:58] [debug] 68030000 - 6804e000 VCRUNTIME140D.dll
+[01:28:58] [debug] 63430000 - 635d5000 ucrtbased.dll
+[01:28:58] [debug] 753b0000 - 75402000 mswsock.dll
+[01:28:58] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[01:28:58] [debug] 76740000 - 767b6000 sechost.dll
+[01:28:58] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[01:28:58] [debug] 6e610000 - 6e620000 wshbth.dll
+[01:28:58] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[01:28:58] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[01:28:58] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[01:28:58] [debug] 77680000 - 77687000 NSI.dll
+[01:28:58] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[01:28:58] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[01:28:58] [debug] 77690000 - 776a9000 bcrypt.dll
+[01:28:58] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[01:28:58] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:30:07] 
+[01:30:07] Server Plugins
+[01:30:07] --------------
+[01:30:07]  Loading plugin: crashdetect.dll
+[01:30:07]   CrashDetect plugin 4.21
+[01:30:07]   Loaded.
+[01:30:07]  Loading plugin: ucrp.dll
+[01:30:07]   Loaded.
+[01:30:07]  Loaded 2 plugins.
+
+[01:30:07] 
+[01:30:07] Filterscripts
+[01:30:07] ---------------
+[01:30:07]   Loaded 0 filterscripts.
+
+[01:30:07] ----------------------------------
+[01:30:07]  United Capital: Roleplay
+[01:30:07] ----------------------------------
+[01:30:07] Setting server password to: "loadserverwaitplease"
+[01:30:07] Number of vehicle models: 0
+[01:30:10] [connection] incoming connection: 127.0.0.1:56972 id: 0
+[01:30:17] Server password has been removed.
+[01:30:17] Server Open!
+[01:30:20] [connection] incoming connection: 127.0.0.1:56911 id: 0
+[01:30:21] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[01:33:20] asdasdasd
+[01:33:20] [debug] Server crashed due to an unknown error
+[01:33:21] [debug] Native backtrace:
+[01:33:21] [debug] #0 75b2d982 in ?? () in C:\WINDOWS\System32\KERNELBASE.dll
+[01:33:21] [debug] #1 6803a250 in ?? () in C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll
+[01:33:21] [debug] #2 6398e65c in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #3 6398c220 in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #4 638fc8fc in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #5 638efb3b in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #6 638efac5 in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #7 63902360 in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #8 638f836c in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #9 638ef79b in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #10 638e491c in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #11 63973a2f in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #12 63982db1 in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #13 6398599f in ?? () in plugins\ucrp.dll
+[01:33:21] [debug] #14 0046dc02 in ?? () in samp-server.exe
+[01:33:21] [debug] Registers:
+[01:33:21] [debug] EAX: 0019f568 EBX: 00000009 ECX: 00000003 EDX: 00000000
+[01:33:21] [debug] ESI: 0019f764 EDI: 0019f6cc EBP: 0019f5c0 ESP: 0019f568
+[01:33:21] [debug] EIP: 75b2d982 EFLAGS: 00000212
+[01:33:21] [debug] Stack:
+[01:33:21] [debug] ESP+00000000: e06d7363 00000001 00000000 75b2d982
+[01:33:21] [debug] ESP+00000020: 0019f590 0019f764 00000000 0019f5ac
+[01:33:21] [debug] ESP+00000040: 00000008 0019f5bc 0019f5c0 634a0136
+[01:33:21] [debug] ESP+00000060: e06d7363 00000001 00000003 0019f5d8
+[01:33:21] [debug] ESP+00000080: 19930520 0019f60c 0019f604 6398e626
+[01:33:21] [debug] ESP+000000a0: 639b5968 639a8d60 639af374 00000000
+[01:33:21] [debug] ESP+000000c0: 638fc8fc 80000027 0019f64c 638efb3b
+[01:33:21] [debug] ESP+000000e0: 80000027 0019f658 638efac5 80000000
+[01:33:21] [debug] ESP+00000100: 0019f6d8 638f836c 80000000 c1855dbb
+[01:33:21] [debug] ESP+00000120: cccccccc cccccccc cccccccc cccccccc
+[01:33:21] [debug] ESP+00000140: cccccccc cccccccc cccccccc 0019f6af
+[01:33:21] [debug] ESP+00000160: 0019f72c 0019fb3c 639944b5 00000001
+[01:33:21] [debug] ESP+00000180: 639a785c 00000008 cccccccc cccccccc
+[01:33:21] [debug] ESP+000001a0: 00000008 0019f754 638e491c 0019f72c
+[01:33:21] [debug] ESP+000001c0: cccccccc 008bd388 00000000 00000000
+[01:33:21] [debug] ESP+000001e0: cccccccc 00885c88 c1855c37 0019f78c
+[01:33:21] [debug] ESP+00000200: cccccccc cccccccc cccccccc 008bd238
+[01:33:21] [debug] ESP+00000220: cccccccc 0019f874 63982db1 027fa818
+[01:33:21] [debug] ESP+00000240: cccccccc cccccccc 00cccccc cccccccc
+[01:33:21] [debug] ESP+00000260: 00887400 637d0000 00000000 cccccccc
+[01:33:21] [debug] ESP+00000280: 00000008 00000000 00000000 cccccccc
+[01:33:21] [debug] ESP+000002a0: cccccccc cccccccc cccccccc cccccccc
+[01:33:21] [debug] ESP+000002c0: cccccccc cccccccc cccccccc cccccccc
+[01:33:21] [debug] ESP+000002e0: cccccccc cccccccc cccccccc cccccccc
+[01:33:21] [debug] ESP+00000300: cccccccc cccccccc c1855317 0019f8b0
+[01:33:21] [debug] ESP+00000320: 0019f8f4 027fa818 cccccccc cccccccc
+[01:33:21] [debug] ESP+00000340: 00000000 00000002 00000000 0046dc02
+[01:33:21] [debug] ESP+00000360: 00000000 027fa818 0019f8f8 0019f900
+[01:33:21] [debug] ESP+00000380: 0019fb48 029adce0 00000000 00000001
+[01:33:21] [debug] ESP+000003a0: 007fec98 0019fb54 007fd701 cccccccc
+[01:33:21] [debug] ESP+000003c0: 00000064 00000000 00000000 00000000
+[01:33:21] [debug] ESP+000003e0: 00000000 00000000 00000000 00000000
+[01:33:21] [debug] Loaded modules:
+[01:33:21] [debug] 00400000 - 00519000 samp-server.exe
+[01:33:21] [debug] 77860000 - 77a04000 ntdll.dll
+[01:33:21] [debug] 76650000 - 76740000 KERNEL32.DLL
+[01:33:21] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[01:33:21] [debug] 76b30000 - 770e7000 SHELL32.dll
+[01:33:21] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[01:33:21] [debug] 75870000 - 75990000 ucrtbase.dll
+[01:33:21] [debug] 770f0000 - 7728c000 USER32.dll
+[01:33:21] [debug] 77510000 - 77528000 win32u.dll
+[01:33:21] [debug] 76a10000 - 76a34000 GDI32.dll
+[01:33:21] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[01:33:21] [debug] 75410000 - 75418000 WSOCK32.dll
+[01:33:21] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[01:33:21] [debug] 77530000 - 775ef000 msvcrt.dll
+[01:33:21] [debug] 777e0000 - 77843000 WS2_32.dll
+[01:33:21] [debug] 76810000 - 768cf000 RPCRT4.dll
+[01:33:21] [debug] 77370000 - 77395000 IMM32.DLL
+[01:33:21] [debug] 65af0000 - 65b79000 crashdetect.dll
+[01:33:21] [debug] 65930000 - 659a1000 MSVCP120.dll
+[01:33:21] [debug] 64090000 - 6417e000 MSVCR120.dll
+[01:33:21] [debug] 637d0000 - 639e2000 ucrp.dll
+[01:33:21] [debug] 68030000 - 6804e000 VCRUNTIME140D.dll
+[01:33:21] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[01:33:21] [debug] 63430000 - 635d5000 ucrtbased.dll
+[01:33:21] [debug] 753b0000 - 75402000 mswsock.dll
+[01:33:21] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[01:33:21] [debug] 76740000 - 767b6000 sechost.dll
+[01:33:21] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[01:33:21] [debug] 6e610000 - 6e620000 wshbth.dll
+[01:33:21] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[01:33:21] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[01:33:21] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[01:33:21] [debug] 77680000 - 77687000 NSI.dll
+[01:33:21] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[01:33:21] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[01:33:21] [debug] 77690000 - 776a9000 bcrypt.dll
+[01:33:21] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[01:33:21] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:34:38] 
+[01:34:38] Server Plugins
+[01:34:38] --------------
+[01:34:38]  Loading plugin: crashdetect.dll
+[01:34:38]   CrashDetect plugin 4.21
+[01:34:38]   Loaded.
+[01:34:38]  Loading plugin: ucrp.dll
+[01:34:38]   Loaded.
+[01:34:38]  Loaded 2 plugins.
+
+[01:34:38] 
+[01:34:38] Filterscripts
+[01:34:38] ---------------
+[01:34:38]   Loaded 0 filterscripts.
+
+[01:34:38] ----------------------------------
+[01:34:38]  United Capital: Roleplay
+[01:34:38] ----------------------------------
+[01:34:38] Setting server password to: "loadserverwaitplease"
+[01:34:38] Number of vehicle models: 0
+[01:34:46] [connection] incoming connection: 127.0.0.1:61815 id: 0
+[01:34:48] Server password has been removed.
+[01:34:48] Server Open!
+[01:34:56] [connection] incoming connection: 127.0.0.1:50532 id: 0
+[01:35:06] [connection] incoming connection: 127.0.0.1:50592 id: 0
+[01:35:30] [connection] incoming connection: 127.0.0.1:56927 id: 0
+[01:35:31] [join] Printf has joined the server (0:127.0.0.1)
+[01:35:49] asdasdads
+[01:35:49] [debug] Server crashed due to an unknown error
+[01:35:49] [debug] Native backtrace:
+[01:35:49] [debug] #0 75b2d982 in ?? () in C:\WINDOWS\System32\KERNELBASE.dll
+[01:35:49] [debug] #1 6803a250 in ?? () in C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll
+[01:35:49] [debug] #2 6398e65c in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #3 6398c220 in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #4 638fc8fc in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #5 638efb3b in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #6 638efac5 in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #7 63902360 in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #8 638f836c in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #9 638ef79b in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #10 638e491c in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #11 63973a2f in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #12 63982db1 in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #13 6398599f in ?? () in plugins\ucrp.dll
+[01:35:49] [debug] #14 0046dc02 in ?? () in samp-server.exe
+[01:35:49] [debug] Registers:
+[01:35:49] [debug] EAX: 0019f568 EBX: 00000009 ECX: 00000003 EDX: 00000000
+[01:35:49] [debug] ESI: 0019f764 EDI: 0019f6cc EBP: 0019f5c0 ESP: 0019f568
+[01:35:49] [debug] EIP: 75b2d982 EFLAGS: 00000212
+[01:35:49] [debug] Stack:
+[01:35:49] [debug] ESP+00000000: e06d7363 00000001 00000000 75b2d982
+[01:35:49] [debug] ESP+00000020: 0019f590 0019f764 00000000 0019f5ac
+[01:35:49] [debug] ESP+00000040: 00000008 0019f5bc 0019f5c0 634a0136
+[01:35:49] [debug] ESP+00000060: e06d7363 00000001 00000003 0019f5d8
+[01:35:49] [debug] ESP+00000080: 19930520 0019f60c 0019f604 6398e626
+[01:35:49] [debug] ESP+000000a0: 639b5968 639a8d60 639af374 00000000
+[01:35:49] [debug] ESP+000000c0: 638fc8fc 80000027 0019f64c 638efb3b
+[01:35:49] [debug] ESP+000000e0: 80000027 0019f658 638efac5 80000000
+[01:35:49] [debug] ESP+00000100: 0019f6d8 638f836c 80000000 66512e7b
+[01:35:49] [debug] ESP+00000120: cccccccc cccccccc cccccccc cccccccc
+[01:35:49] [debug] ESP+00000140: cccccccc cccccccc cccccccc 0019f6af
+[01:35:49] [debug] ESP+00000160: 0019f72c 0019fb3c 639944b5 00000001
+[01:35:49] [debug] ESP+00000180: 639a7854 00000008 cccccccc cccccccc
+[01:35:49] [debug] ESP+000001a0: 00000008 0019f754 638e491c 0019f72c
+[01:35:49] [debug] ESP+000001c0: cccccccc 005554f8 00000000 00000000
+[01:35:49] [debug] ESP+000001e0: cccccccc 0055ae50 66512ff7 0019f78c
+[01:35:49] [debug] ESP+00000200: cccccccc cccccccc cccccccc 005556f0
+[01:35:49] [debug] ESP+00000220: cccccccc 0019f874 63982db1 027ea818
+[01:35:49] [debug] ESP+00000240: cccccccc cccccccc 00cccccc cccccccc
+[01:35:49] [debug] ESP+00000260: 00549428 637d0000 00000000 cccccccc
+[01:35:49] [debug] ESP+00000280: 00000008 00000000 00000000 cccccccc
+[01:35:49] [debug] ESP+000002a0: cccccccc cccccccc cccccccc cccccccc
+[01:35:49] [debug] ESP+000002c0: cccccccc cccccccc cccccccc cccccccc
+[01:35:49] [debug] ESP+000002e0: cccccccc cccccccc cccccccc cccccccc
+[01:35:49] [debug] ESP+00000300: cccccccc cccccccc 665120d7 0019f8b0
+[01:35:49] [debug] ESP+00000320: 0019f8f4 027ea818 cccccccc cccccccc
+[01:35:49] [debug] ESP+00000340: 00000000 00000002 00000000 0046dc02
+[01:35:49] [debug] ESP+00000360: 00000000 027ea818 0019f8f8 0019f900
+[01:35:49] [debug] ESP+00000380: 0019fb48 0299dce0 00000000 00000001
+[01:35:49] [debug] ESP+000003a0: 0219eae8 0019fb54 0219d701 cccccccc
+[01:35:49] [debug] ESP+000003c0: 00000073 00000000 00000000 00000000
+[01:35:49] [debug] ESP+000003e0: 00000000 00000000 00000000 00000000
+[01:35:49] [debug] Loaded modules:
+[01:35:49] [debug] 00400000 - 00519000 samp-server.exe
+[01:35:49] [debug] 77860000 - 77a04000 ntdll.dll
+[01:35:49] [debug] 76650000 - 76740000 KERNEL32.DLL
+[01:35:49] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[01:35:49] [debug] 76b30000 - 770e7000 SHELL32.dll
+[01:35:49] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[01:35:49] [debug] 75870000 - 75990000 ucrtbase.dll
+[01:35:49] [debug] 770f0000 - 7728c000 USER32.dll
+[01:35:49] [debug] 77510000 - 77528000 win32u.dll
+[01:35:49] [debug] 76a10000 - 76a34000 GDI32.dll
+[01:35:49] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[01:35:49] [debug] 75410000 - 75418000 WSOCK32.dll
+[01:35:49] [debug] 77530000 - 775ef000 msvcrt.dll
+[01:35:49] [debug] 777e0000 - 77843000 WS2_32.dll
+[01:35:49] [debug] 76810000 - 768cf000 RPCRT4.dll
+[01:35:49] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[01:35:49] [debug] 77370000 - 77395000 IMM32.DLL
+[01:35:49] [debug] 65af0000 - 65b79000 crashdetect.dll
+[01:35:49] [debug] 65930000 - 659a1000 MSVCP120.dll
+[01:35:49] [debug] 64090000 - 6417e000 MSVCR120.dll
+[01:35:49] [debug] 637d0000 - 639e2000 ucrp.dll
+[01:35:49] [debug] 68030000 - 6804e000 VCRUNTIME140D.dll
+[01:35:49] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[01:35:49] [debug] 63430000 - 635d5000 ucrtbased.dll
+[01:35:49] [debug] 753b0000 - 75402000 mswsock.dll
+[01:35:49] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[01:35:49] [debug] 76740000 - 767b6000 sechost.dll
+[01:35:49] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[01:35:49] [debug] 6e610000 - 6e620000 wshbth.dll
+[01:35:49] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[01:35:49] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[01:35:49] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[01:35:49] [debug] 77680000 - 77687000 NSI.dll
+[01:35:49] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[01:35:49] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[01:35:49] [debug] 77690000 - 776a9000 bcrypt.dll
+[01:35:49] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[01:35:49] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:38:35] 
+[01:38:35] Server Plugins
+[01:38:35] --------------
+[01:38:35]  Loading plugin: crashdetect.dll
+[01:38:35]   CrashDetect plugin 4.21
+[01:38:35]   Loaded.
+[01:38:35]  Loading plugin: ucrp.dll
+[01:38:35]   Loaded.
+[01:38:35]  Loaded 2 plugins.
+
+[01:38:35] 
+[01:38:35] Filterscripts
+[01:38:35] ---------------
+[01:38:35]   Loaded 0 filterscripts.
+
+[01:38:35] ----------------------------------
+[01:38:35]  United Capital: Roleplay
+[01:38:35] ----------------------------------
+[01:38:35] Setting server password to: "loadserverwaitplease"
+[01:38:35] Number of vehicle models: 0
+[01:38:45] Server password has been removed.
+[01:38:45] Server Open!
+[01:39:08] [connection] incoming connection: 127.0.0.1:50983 id: 0
+[01:39:08] [join] Printf has joined the server (0:127.0.0.1)
+[01:39:26] asdasdasd
+[01:39:26] [debug] Server crashed due to an unknown error
+[01:39:27] [debug] Native backtrace:
+[01:39:27] [debug] #0 75b2d982 in ?? () in C:\WINDOWS\System32\KERNELBASE.dll
+[01:39:27] [debug] #1 69b7a250 in ?? () in C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll
+[01:39:27] [debug] #2 6398e64c in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #3 6398c210 in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #4 638fc8ec in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #5 638efb2b in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #6 638efab5 in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #7 63902350 in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #8 638f835c in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #9 638ef78b in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #10 638e491c in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #11 63973a1f in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #12 63982da1 in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #13 6398598f in ?? () in plugins\ucrp.dll
+[01:39:27] [debug] #14 0046dc02 in ?? () in samp-server.exe
+[01:39:27] [debug] Registers:
+[01:39:27] [debug] EAX: 0019f568 EBX: 00000009 ECX: 00000003 EDX: 00000000
+[01:39:27] [debug] ESI: 0019f764 EDI: 0019f6d0 EBP: 0019f5c4 ESP: 0019f568
+[01:39:27] [debug] EIP: 75b2d982 EFLAGS: 00000212
+[01:39:27] [debug] Stack:
+[01:39:27] [debug] ESP+00000000: e06d7363 00000001 00000000 75b2d982
+[01:39:27] [debug] ESP+00000020: 00000008 0019f594 0019f764 00000000
+[01:39:27] [debug] ESP+00000040: 00000009 00000008 0019f5c0 0019f5c4
+[01:39:27] [debug] ESP+00000060: 69b7a250 e06d7363 00000001 00000003
+[01:39:27] [debug] ESP+00000080: 00000000 19930520 0019f610 0019f608
+[01:39:27] [debug] ESP+000000a0: 0019f610 639b5968 639a8d68 639af374
+[01:39:27] [debug] ESP+000000c0: 0019f634 638fc8ec 80000027 0019f650
+[01:39:27] [debug] ESP+000000e0: cccccccc 80000027 0019f65c 638efab5
+[01:39:27] [debug] ESP+00000100: 0019f72c 0019f6dc 638f835c 80000000
+[01:39:27] [debug] ESP+00000120: 0019f72c cccccccc cccccccc cccccccc
+[01:39:27] [debug] ESP+00000140: cccccccc cccccccc cccccccc cccccccc
+[01:39:27] [debug] ESP+00000160: ccccccd4 0019f72c 0019fb3c 639944a5
+[01:39:27] [debug] ESP+00000180: 0019f72c 639a7854 00000008 cccccccc
+[01:39:27] [debug] ESP+000001a0: cccccccc 00000008 0019f754 638e491c
+[01:39:27] [debug] ESP+000001c0: cccccccc 0066d648 00000000 00000000
+[01:39:27] [debug] ESP+000001e0: cccccccc 00646d90 0858e467 0019f78c
+[01:39:27] [debug] ESP+00000200: cccccccc cccccccc cccccccc 0066d878
+[01:39:27] [debug] ESP+00000220: cccccccc 0019f874 63982da1 0286a818
+[01:39:27] [debug] ESP+00000240: cccccccc cccccccc 00cccccc cccccccc
+[01:39:27] [debug] ESP+00000260: 00636a18 637d0000 00000000 cccccccc
+[01:39:27] [debug] ESP+00000280: 00000008 00000000 00000000 cccccccc
+[01:39:27] [debug] ESP+000002a0: cccccccc cccccccc cccccccc cccccccc
+[01:39:27] [debug] ESP+000002c0: cccccccc cccccccc cccccccc cccccccc
+[01:39:27] [debug] ESP+000002e0: cccccccc cccccccc cccccccc cccccccc
+[01:39:27] [debug] ESP+00000300: cccccccc cccccccc 0858eb47 0019f8b0
+[01:39:27] [debug] ESP+00000320: 0019f8f4 0286a818 cccccccc cccccccc
+[01:39:27] [debug] ESP+00000340: 00000000 00000002 00000000 0046dc02
+[01:39:27] [debug] ESP+00000360: 00000000 0286a818 0019f8f8 0019f900
+[01:39:27] [debug] ESP+00000380: 0019fb48 02a1d8e8 00000000 00000001
+[01:39:27] [debug] ESP+000003a0: 005aebf0 0019fb54 005ad701 cccccccc
+[01:39:27] [debug] ESP+000003c0: 00000064 00000000 00000000 00000000
+[01:39:27] [debug] ESP+000003e0: 00000000 00000000 00000000 00000000
+[01:39:27] [debug] Loaded modules:
+[01:39:27] [debug] 00400000 - 00519000 samp-server.exe
+[01:39:27] [debug] 77860000 - 77a04000 ntdll.dll
+[01:39:27] [debug] 76650000 - 76740000 KERNEL32.DLL
+[01:39:27] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[01:39:27] [debug] 76b30000 - 770e7000 SHELL32.dll
+[01:39:27] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[01:39:27] [debug] 75870000 - 75990000 ucrtbase.dll
+[01:39:27] [debug] 770f0000 - 7728c000 USER32.dll
+[01:39:27] [debug] 77510000 - 77528000 win32u.dll
+[01:39:27] [debug] 76a10000 - 76a34000 GDI32.dll
+[01:39:27] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[01:39:27] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[01:39:27] [debug] 75410000 - 75418000 WSOCK32.dll
+[01:39:27] [debug] 77530000 - 775ef000 msvcrt.dll
+[01:39:27] [debug] 777e0000 - 77843000 WS2_32.dll
+[01:39:27] [debug] 76810000 - 768cf000 RPCRT4.dll
+[01:39:27] [debug] 77370000 - 77395000 IMM32.DLL
+[01:39:27] [debug] 65af0000 - 65b79000 crashdetect.dll
+[01:39:27] [debug] 659d0000 - 65a41000 MSVCP120.dll
+[01:39:27] [debug] 64090000 - 6417e000 MSVCR120.dll
+[01:39:27] [debug] 637d0000 - 639e2000 ucrp.dll
+[01:39:27] [debug] 69b70000 - 69b8e000 VCRUNTIME140D.dll
+[01:39:27] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[01:39:27] [debug] 63430000 - 635d5000 ucrtbased.dll
+[01:39:27] [debug] 753b0000 - 75402000 mswsock.dll
+[01:39:27] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[01:39:27] [debug] 76740000 - 767b6000 sechost.dll
+[01:39:27] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[01:39:27] [debug] 6e610000 - 6e620000 wshbth.dll
+[01:39:27] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[01:39:27] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[01:39:27] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[01:39:27] [debug] 77680000 - 77687000 NSI.dll
+[01:39:27] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[01:39:27] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[01:39:27] [debug] 77690000 - 776a9000 bcrypt.dll
+[01:39:27] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[01:39:27] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:40:29] 
+[01:40:29] Server Plugins
+[01:40:29] --------------
+[01:40:29]  Loading plugin: crashdetect.dll
+[01:40:29]   CrashDetect plugin 4.21
+[01:40:29]   Loaded.
+[01:40:29]  Loading plugin: ucrp.dll
+[01:40:29]   Loaded.
+[01:40:29]  Loaded 2 plugins.
+
+[01:40:29] 
+[01:40:29] Filterscripts
+[01:40:29] ---------------
+[01:40:29]   Loaded 0 filterscripts.
+
+[01:40:29] ----------------------------------
+[01:40:29]  United Capital: Roleplay
+[01:40:29] ----------------------------------
+[01:40:29] Setting server password to: "loadserverwaitplease"
+[01:40:29] Number of vehicle models: 0
+[01:40:39] Server password has been removed.
+[01:40:39] Server Open!
+[01:40:46] [connection] incoming connection: 127.0.0.1:57472 id: 0
+[01:40:46] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[01:40:56] todo nice
+[01:40:56] text
+[01:41:05] todo nice
+[01:41:05] text
+[01:41:07] UPDATE Characters SET PositionX = '1865.8854', PositionY = '-1430.367', PositionZ = '13.568878', PositionR = '25.309254', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[01:41:08] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:42:10] 
+[01:42:10] Server Plugins
+[01:42:10] --------------
+[01:42:10]  Loading plugin: crashdetect.dll
+[01:42:10]   CrashDetect plugin 4.21
+[01:42:10]   Loaded.
+[01:42:10]  Loading plugin: ucrp.dll
+[01:42:10]   Loaded.
+[01:42:10]  Loaded 2 plugins.
+
+[01:42:10] 
+[01:42:10] Filterscripts
+[01:42:10] ---------------
+[01:42:10]   Loaded 0 filterscripts.
+
+[01:42:10] ----------------------------------
+[01:42:10]  United Capital: Roleplay
+[01:42:10] ----------------------------------
+[01:42:10] Setting server password to: "loadserverwaitplease"
+[01:42:10] Number of vehicle models: 0
+[01:42:20] Server password has been removed.
+[01:42:20] Server Open!
+[01:42:32] [connection] incoming connection: 127.0.0.1:53696 id: 0
+[01:42:32] [join] Printf has joined the server (0:127.0.0.1)
+[01:42:46] [debug] Server crashed due to an unknown error
+[01:42:46] [debug] Native backtrace:
+[01:42:46] [debug] #0 6351f2b4 in ?? () in C:\WINDOWS\SYSTEM32\ucrtbased.dll
+[01:42:46] [debug] #1 63511406 in ?? () in C:\WINDOWS\SYSTEM32\ucrtbased.dll
+[01:42:46] [debug] #2 6352f3a5 in ?? () in C:\WINDOWS\SYSTEM32\ucrtbased.dll
+[01:42:46] [debug] #3 63981530 in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #4 639814da in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #5 63983ed0 in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #6 6397b9b0 in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #7 639036e7 in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #8 638e48eb in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #9 6397396f in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #10 63982cf1 in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #11 639858df in ?? () in plugins\ucrp.dll
+[01:42:46] [debug] #12 0046dc02 in ?? () in samp-server.exe
+[01:42:46] [debug] Registers:
+[01:42:46] [debug] EAX: 0019edec EBX: 00000011 ECX: 0019edec EDX: 00000001
+[01:42:46] [debug] ESI: 0019f2bc EDI: 0019f714 EBP: 0019ed80 ESP: 0019ed58
+[01:42:46] [debug] EIP: 6351f2b4 EFLAGS: 00010202
+[01:42:46] [debug] Stack:
+[01:42:46] [debug] ESP+00000000: 0019ed7c 0019f26c 0019f234 0019edec
+[01:42:46] [debug] ESP+00000020: 0019edec 00000001 0019f248 63511406
+[01:42:46] [debug] ESP+00000040: cccccccc 00000000 00000000 cccccccc
+[01:42:46] [debug] ESP+00000060: cccccccc cccccccc cccccccc 00000000
+[01:42:46] [debug] ESP+00000080: 0019f30c 00000400 00000000 00000000
+[01:42:46] [debug] ESP+000000a0: 00000001 0019f748 00000000 cccccc00
+[01:42:46] [debug] ESP+000000c0: cccc0000 10000010 00000000 cccccc00
+[01:42:46] [debug] ESP+000000e0: cccccccc 10000010 00002a00 007e6d10
+[01:42:46] [debug] ESP+00000100: 007e0000 0083bfe0 00000006 fffffd2d
+[01:42:46] [debug] ESP+00000120: 00000006 fffffd2d 000007ff fffffff8
+[01:42:46] [debug] ESP+00000140: 00002a00 007e0000 00000000 00002a00
+[01:42:46] [debug] ESP+00000160: 007e0000 00000080 00000010 024a00c0
+[01:42:46] [debug] ESP+00000180: 00000000 00014000 00000008 cccccccc
+[01:42:46] [debug] ESP+000001a0: 00000000 0000008c 024a00c0 00000040
+[01:42:46] [debug] ESP+000001c0: 00000002 00000001 00000100 0000000c
+[01:42:46] [debug] ESP+000001e0: 0286db80 7794a1f0 00000000 00000001
+[01:42:46] [debug] ESP+00000200: 024a0001 008a3abc 028781b0 024a0270
+[01:42:46] [debug] ESP+00000220: cc950549 0019f070 778daf30 9a310689
+[01:42:46] [debug] ESP+00000240: 0012003c 0019f038 02a2d4f4 0019f030
+[01:42:46] [debug] ESP+00000260: 024a0000 00000064 00000001 00000018
+[01:42:46] [debug] ESP+00000280: 006807d0 00000064 00000000 00000010
+[01:42:46] [debug] ESP+000002a0: 00000000 00680000 00000002 00000000
+[01:42:46] [debug] ESP+000002c0: 00000004 00680904 00000000 024a0000
+[01:42:46] [debug] ESP+000002e0: 0286db40 778a5e1e 00000000 00000000
+[01:42:46] [debug] ESP+00000300: 00000000 0019f494 0019f494 63981160
+[01:42:46] [debug] ESP+00000320: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] ESP+00000340: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] ESP+00000360: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] ESP+00000380: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] ESP+000003a0: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] ESP+000003c0: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] ESP+000003e0: cccccccc cccccccc cccccccc cccccccc
+[01:42:46] [debug] Loaded modules:
+[01:42:46] [debug] 00400000 - 00519000 samp-server.exe
+[01:42:46] [debug] 77860000 - 77a04000 ntdll.dll
+[01:42:46] [debug] 76650000 - 76740000 KERNEL32.DLL
+[01:42:46] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[01:42:46] [debug] 76b30000 - 770e7000 SHELL32.dll
+[01:42:46] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[01:42:46] [debug] 75870000 - 75990000 ucrtbase.dll
+[01:42:46] [debug] 770f0000 - 7728c000 USER32.dll
+[01:42:46] [debug] 77510000 - 77528000 win32u.dll
+[01:42:46] [debug] 76a10000 - 76a34000 GDI32.dll
+[01:42:46] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[01:42:46] [debug] 75410000 - 75418000 WSOCK32.dll
+[01:42:46] [debug] 77530000 - 775ef000 msvcrt.dll
+[01:42:46] [debug] 777e0000 - 77843000 WS2_32.dll
+[01:42:46] [debug] 76810000 - 768cf000 RPCRT4.dll
+[01:42:46] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[01:42:46] [debug] 77370000 - 77395000 IMM32.DLL
+[01:42:46] [debug] 65af0000 - 65b79000 crashdetect.dll
+[01:42:46] [debug] 659d0000 - 65a41000 MSVCP120.dll
+[01:42:46] [debug] 64090000 - 6417e000 MSVCR120.dll
+[01:42:46] [debug] 637d0000 - 639e2000 ucrp.dll
+[01:42:46] [debug] 69b70000 - 69b8e000 VCRUNTIME140D.dll
+[01:42:46] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[01:42:46] [debug] 63430000 - 635d5000 ucrtbased.dll
+[01:42:46] [debug] 753b0000 - 75402000 mswsock.dll
+[01:42:46] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[01:42:46] [debug] 76740000 - 767b6000 sechost.dll
+[01:42:46] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[01:42:46] [debug] 6e610000 - 6e620000 wshbth.dll
+[01:42:46] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[01:42:46] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[01:42:46] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[01:42:46] [debug] 77680000 - 77687000 NSI.dll
+[01:42:46] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[01:42:46] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[01:42:46] [debug] 77690000 - 776a9000 bcrypt.dll
+[01:42:46] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[01:42:46] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:43:51] 
+[01:43:51] Server Plugins
+[01:43:51] --------------
+[01:43:51]  Loading plugin: crashdetect.dll
+[01:43:51]   CrashDetect plugin 4.21
+[01:43:51]   Loaded.
+[01:43:51]  Loading plugin: ucrp.dll
+[01:43:51]   Loaded.
+[01:43:51]  Loaded 2 plugins.
+
+[01:43:51] 
+[01:43:51] Filterscripts
+[01:43:51] ---------------
+[01:43:51]   Loaded 0 filterscripts.
+
+[01:43:51] ----------------------------------
+[01:43:51]  United Capital: Roleplay
+[01:43:51] ----------------------------------
+[01:43:51] Setting server password to: "loadserverwaitplease"
+[01:43:51] Number of vehicle models: 0
+[01:44:01] Server password has been removed.
+[01:44:01] Server Open!
+[01:44:04] [connection] incoming connection: 127.0.0.1:55174 id: 0
+[01:44:04] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[01:44:18] true
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:47:02] 
+[01:47:02] Server Plugins
+[01:47:02] --------------
+[01:47:02]  Loading plugin: crashdetect.dll
+[01:47:02]   CrashDetect plugin 4.21
+[01:47:02]   Loaded.
+[01:47:02]  Loading plugin: ucrp.dll
+[01:47:02]   Loaded.
+[01:47:02]  Loaded 2 plugins.
+
+[01:47:03] 
+[01:47:03] Filterscripts
+[01:47:03] ---------------
+[01:47:03]   Loaded 0 filterscripts.
+
+[01:47:03] ----------------------------------
+[01:47:03]  United Capital: Roleplay
+[01:47:03] ----------------------------------
+[01:47:03] Setting server password to: "loadserverwaitplease"
+[01:47:03] Number of vehicle models: 0
+[01:47:13] Server password has been removed.
+[01:47:13] Server Open!
+[01:47:14] [connection] incoming connection: 127.0.0.1:51365 id: 0
+[01:47:14] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[01:48:22] UPDATE Characters SET PositionX = '1963.9121', PositionY = '-1438.9839', PositionZ = '13.565486', PositionR = '326.1084', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[01:48:23] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:51:55] 
+[01:51:55] Server Plugins
+[01:51:55] --------------
+[01:51:55]  Loading plugin: crashdetect.dll
+[01:51:55]   CrashDetect plugin 4.21
+[01:51:55]   Loaded.
+[01:51:55]  Loading plugin: ucrp.dll
+[01:51:55]   Loaded.
+[01:51:55]  Loaded 2 plugins.
+
+[01:51:56] 
+[01:51:56] Filterscripts
+[01:51:56] ---------------
+[01:51:56]   Loaded 0 filterscripts.
+
+[01:51:56] ----------------------------------
+[01:51:56]  United Capital: Roleplay
+[01:51:56] ----------------------------------
+[01:51:56] Setting server password to: "loadserverwaitplease"
+[01:51:56] Number of vehicle models: 0
+[01:52:06] Server password has been removed.
+[01:52:06] Server Open!
+[01:52:34] [connection] incoming connection: 127.0.0.1:56961 id: 0
+[01:52:34] [join] Printf has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:59:24] 
+[01:59:24] Server Plugins
+[01:59:24] --------------
+[01:59:24]  Loading plugin: crashdetect.dll
+[01:59:24]   CrashDetect plugin 4.21
+[01:59:24]   Loaded.
+[01:59:24]  Loading plugin: ucrp.dll
+[01:59:24]   Loaded.
+[01:59:24]  Loaded 2 plugins.
+
+[01:59:24] 
+[01:59:24] Filterscripts
+[01:59:24] ---------------
+[01:59:24]   Loaded 0 filterscripts.
+
+[01:59:24] ----------------------------------
+[01:59:24]  United Capital: Roleplay
+[01:59:24] ----------------------------------
+[01:59:24] Setting server password to: "loadserverwaitplease"
+[01:59:24] Number of vehicle models: 0
+[01:59:34] Server password has been removed.
+[01:59:34] Server Open!
+[02:05:28] [connection] incoming connection: 127.0.0.1:59383 id: 0
+[02:05:28] [join] Conectando_0 has joined the server (0:127.0.0.1)
+[02:05:39] [part] Conectando_0 has left the server (0:2)
+[02:05:57] [connection] incoming connection: 127.0.0.1:51519 id: 0
+[02:05:57] [join] Printf has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:07:08] 
+[02:07:08] Server Plugins
+[02:07:08] --------------
+[02:07:08]  Loading plugin: crashdetect.dll
+[02:07:08]   CrashDetect plugin 4.21
+[02:07:08]   Loaded.
+[02:07:08]  Loading plugin: ucrp.dll
+[02:07:08]   Loaded.
+[02:07:08]  Loaded 2 plugins.
+
+[02:07:08] 
+[02:07:08] Filterscripts
+[02:07:08] ---------------
+[02:07:08]   Loaded 0 filterscripts.
+
+[02:07:08] ----------------------------------
+[02:07:08]  United Capital: Roleplay
+[02:07:08] ----------------------------------
+[02:07:08] Setting server password to: "loadserverwaitplease"
+[02:07:08] Number of vehicle models: 0
+[02:07:15] [connection] incoming connection: 127.0.0.1:51854 id: 0
+[02:07:18] Server password has been removed.
+[02:07:18] Server Open!
+[02:07:28] [connection] incoming connection: 127.0.0.1:59915 id: 0
+[02:07:28] [join] Conectando_0 has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:08:20] 
+[02:08:20] Server Plugins
+[02:08:20] --------------
+[02:08:20]  Loading plugin: crashdetect.dll
+[02:08:20]   CrashDetect plugin 4.21
+[02:08:20]   Loaded.
+[02:08:20]  Loading plugin: ucrp.dll
+[02:08:20]   Loaded.
+[02:08:20]  Loaded 2 plugins.
+
+[02:08:20] 
+[02:08:20] Filterscripts
+[02:08:20] ---------------
+[02:08:20]   Loaded 0 filterscripts.
+
+[02:08:20] ----------------------------------
+[02:08:20]  United Capital: Roleplay
+[02:08:20] ----------------------------------
+[02:08:20] Setting server password to: "loadserverwaitplease"
+[02:08:20] Number of vehicle models: 0
+[02:08:22] [connection] incoming connection: 127.0.0.1:58791 id: 0
+[02:08:30] Server password has been removed.
+[02:08:30] Server Open!
+[02:08:32] [connection] incoming connection: 127.0.0.1:56368 id: 0
+[02:08:32] [join] Conectando_0 has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:09:09] 
+[02:09:09] Server Plugins
+[02:09:09] --------------
+[02:09:09]  Loading plugin: crashdetect.dll
+[02:09:09]   CrashDetect plugin 4.21
+[02:09:09]   Loaded.
+[02:09:09]  Loading plugin: ucrp.dll
+[02:09:09]   Loaded.
+[02:09:09]  Loaded 2 plugins.
+
+[02:09:09] 
+[02:09:09] Filterscripts
+[02:09:09] ---------------
+[02:09:09]   Loaded 0 filterscripts.
+
+[02:09:09] ----------------------------------
+[02:09:09]  United Capital: Roleplay
+[02:09:09] ----------------------------------
+[02:09:09] Setting server password to: "loadserverwaitplease"
+[02:09:09] Number of vehicle models: 0
+[02:09:19] Server password has been removed.
+[02:09:19] Server Open!
+[02:09:20] [connection] incoming connection: 127.0.0.1:51923 id: 0
+[02:09:20] [join] Conectando_0 has joined the server (0:127.0.0.1)
+[02:26:33] [part] Conectando_0 has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:36:27] 
+[02:36:27] Server Plugins
+[02:36:27] --------------
+[02:36:27]  Loading plugin: crashdetect.dll
+[02:36:27]   CrashDetect plugin 4.21
+[02:36:27]   Loaded.
+[02:36:27]  Loading plugin: ucrp.dll
+[02:36:27]   Loaded.
+[02:36:27]  Loaded 2 plugins.
+
+[02:36:27] 
+[02:36:27] Filterscripts
+[02:36:27] ---------------
+[02:36:27]   Loaded 0 filterscripts.
+
+[02:36:27] ----------------------------------
+[02:36:27]  United Capital: Roleplay
+[02:36:27] ----------------------------------
+[02:36:27] Setting server password to: "loadserverwaitplease"
+[02:36:27] Number of vehicle models: 0
+[02:36:37] Server password has been removed.
+[02:36:37] Server Open!
+[02:36:50] [connection] incoming connection: 127.0.0.1:49556 id: 0
+[02:36:51] [join] Printf has joined the server (0:127.0.0.1)
+[02:38:28] [part] Conectando_0 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:38:46] 
+[02:38:46] Server Plugins
+[02:38:46] --------------
+[02:38:46]  Loading plugin: crashdetect.dll
+[02:38:46]   CrashDetect plugin 4.21
+[02:38:46]   Loaded.
+[02:38:46]  Loading plugin: ucrp.dll
+[02:38:46]   Loaded.
+[02:38:46]  Loaded 2 plugins.
+
+[02:38:46] 
+[02:38:46] Filterscripts
+[02:38:46] ---------------
+[02:38:46]   Loaded 0 filterscripts.
+
+[02:38:46] ----------------------------------
+[02:38:46]  United Capital: Roleplay
+[02:38:46] ----------------------------------
+[02:38:46] Setting server password to: "loadserverwaitplease"
+[02:38:46] Number of vehicle models: 0
+[02:38:56] Server password has been removed.
+[02:38:56] Server Open!
+[02:39:12] [connection] incoming connection: 127.0.0.1:63634 id: 0
+[02:39:12] [join] Printf has joined the server (0:127.0.0.1)
+[02:43:07] UPDATE Characters SET PositionX = '-1791.3575', PositionY = '568.4568', PositionZ = '332.8047', PositionR = '222.07736', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[02:43:08] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:15:29] 
+[03:15:29] Server Plugins
+[03:15:29] --------------
+[03:15:29]  Loading plugin: crashdetect.dll
+[03:15:29]   CrashDetect plugin 4.21
+[03:15:29]   Loaded.
+[03:15:29]  Loading plugin: ucrp.dll
+[03:15:29]   Loaded.
+[03:15:29]  Loaded 2 plugins.
+
+[03:15:29] 
+[03:15:29] Filterscripts
+[03:15:29] ---------------
+[03:15:29]   Loaded 0 filterscripts.
+
+[03:15:29] ----------------------------------
+[03:15:29]  United Capital: Roleplay
+[03:15:29] ----------------------------------
+[03:15:29] Setting server password to: "loadserverwaitplease"
+[03:15:29] Number of vehicle models: 0
+[03:15:39] Server password has been removed.
+[03:15:39] Server Open!
+[03:15:55] [connection] incoming connection: 127.0.0.1:53510 id: 0
+[03:15:55] [join] Printf has joined the server (0:127.0.0.1)
+[03:16:23] UPDATE Characters SET PositionX = '-1790.9315', PositionY = '568.01825', PositionZ = '332.8047', PositionR = '44.125748', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[03:16:23] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:17:40] 
+[03:17:40] Server Plugins
+[03:17:40] --------------
+[03:17:40]  Loading plugin: crashdetect.dll
+[03:17:40]   CrashDetect plugin 4.21
+[03:17:40]   Loaded.
+[03:17:40]  Loading plugin: ucrp.dll
+[03:17:40]   Loaded.
+[03:17:40]  Loaded 2 plugins.
+
+[03:17:40] 
+[03:17:40] Filterscripts
+[03:17:40] ---------------
+[03:17:40]   Loaded 0 filterscripts.
+
+[03:17:40] ----------------------------------
+[03:17:40]  United Capital: Roleplay
+[03:17:40] ----------------------------------
+[03:17:40] Setting server password to: "loadserverwaitplease"
+[03:17:40] Number of vehicle models: 0
+[03:17:50] Server password has been removed.
+[03:17:50] Server Open!
+[03:18:35] [connection] incoming connection: 127.0.0.1:62358 id: 0
+[03:18:35] [join] Printf has joined the server (0:127.0.0.1)
+[03:19:11] UPDATE Characters SET PositionX = '-1790.8447', PositionY = '567.04504', PositionZ = '332.80194', PositionR = '222.72748', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[03:19:12] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:20:11] 
+[03:20:11] Server Plugins
+[03:20:11] --------------
+[03:20:11]  Loading plugin: crashdetect.dll
+[03:20:11]   CrashDetect plugin 4.21
+[03:20:11]   Loaded.
+[03:20:11]  Loading plugin: ucrp.dll
+[03:20:11]   Loaded.
+[03:20:11]  Loaded 2 plugins.
+
+[03:20:11] 
+[03:20:11] Filterscripts
+[03:20:11] ---------------
+[03:20:11]   Loaded 0 filterscripts.
+
+[03:20:11] ----------------------------------
+[03:20:11]  United Capital: Roleplay
+[03:20:11] ----------------------------------
+[03:20:11] Setting server password to: "loadserverwaitplease"
+[03:20:11] Number of vehicle models: 0
+[03:20:21] Server password has been removed.
+[03:20:21] Server Open!
+[03:20:45] [connection] incoming connection: 127.0.0.1:53541 id: 0
+[03:20:45] [join] Printf has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:45:02] 
+[03:45:02] Server Plugins
+[03:45:02] --------------
+[03:45:02]  Loading plugin: crashdetect.dll
+[03:45:02]   CrashDetect plugin 4.21
+[03:45:02]   Loaded.
+[03:45:02]  Loading plugin: ucrp.dll
+[03:45:02]   Loaded.
+[03:45:02]  Loaded 2 plugins.
+
+[03:45:02] 
+[03:45:02] Filterscripts
+[03:45:02] ---------------
+[03:45:02]   Loaded 0 filterscripts.
+
+[03:45:02] ----------------------------------
+[03:45:02]  United Capital: Roleplay
+[03:45:02] ----------------------------------
+[03:45:02] Setting server password to: "loadserverwaitplease"
+[03:45:02] Number of vehicle models: 0
+[03:45:12] Server password has been removed.
+[03:45:12] Server Open!
+[03:45:17] [connection] incoming connection: 127.0.0.1:54806 id: 0
+[03:45:18] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:46:01] UPDATE Characters SET PositionX = '-1791.4733', PositionY = '568.83044', PositionZ = '332.8047', PositionR = '206.74736', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[03:46:01] [part] Patrick_Dempsey has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:02:07] 
+[04:02:07] Server Plugins
+[04:02:07] --------------
+[04:02:07]  Loading plugin: crashdetect.dll
+[04:02:07]   CrashDetect plugin 4.21
+[04:02:07]   Loaded.
+[04:02:07]  Loading plugin: ucrp.dll
+[04:02:07]   Loaded.
+[04:02:07]  Loaded 2 plugins.
+
+[04:02:08] 
+[04:02:08] Filterscripts
+[04:02:08] ---------------
+[04:02:08]   Loaded 0 filterscripts.
+
+[04:02:08] ----------------------------------
+[04:02:08]  United Capital: Roleplay
+[04:02:08] ----------------------------------
+[04:02:08] Setting server password to: "loadserverwaitplease"
+[04:02:08] Number of vehicle models: 0
+[04:02:18] Server password has been removed.
+[04:02:18] Server Open!
+[04:02:33] [connection] incoming connection: 127.0.0.1:53247 id: 0
+[04:02:33] [join] Printf has joined the server (0:127.0.0.1)
+[04:02:57] [debug] Server crashed due to an unknown error
+[04:02:58] [debug] Native backtrace:
+[04:02:58] [debug] #0 638b4f68 in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #1 638e6bed in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #2 638b2c10 in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #3 638eb6c0 in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #4 6392047f in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #5 6391b2e4 in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #6 638e4cd3 in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #7 6397567f in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #8 639848e1 in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #9 639874cf in ?? () in plugins\ucrp.dll
+[04:02:58] [debug] #10 0046dd10 in ?? () in samp-server.exe
+[04:02:58] [debug] #11 00452120 in ?? () in samp-server.exe
+[04:02:58] [debug] #12 778babb9 in ?? () in C:\WINDOWS\SYSTEM32\ntdll.dll
+[04:02:58] [debug] Registers:
+[04:02:58] [debug] EAX: 00000001 EBX: 00000000 ECX: 48cfe9ce EDX: 008f0000
+[04:02:58] [debug] ESI: 0019f284 EDI: 0019f510 EBP: 0019f290 ESP: 0019f284
+[04:02:58] [debug] EIP: 638b4f68 EFLAGS: 00000246
+[04:02:58] [debug] Stack:
+[04:02:58] [debug] ESP+00000000: 0019f29c 0019f528 0019f528 0019f51c
+[04:02:58] [debug] ESP+00000020: 00000000 0019f528 0019f528 0019f51c
+[04:02:58] [debug] ESP+00000040: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000060: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000080: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+000000a0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+000000c0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+000000e0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000100: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000120: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000140: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000160: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000180: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+000001a0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+000001c0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+000001e0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000200: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000220: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000240: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000260: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] ESP+00000280: cccccccc 0019f65c 21fa9286 0019f594
+[04:02:58] [debug] ESP+000002a0: 009212d8 0094d478 00916bb8 00916bd4
+[04:02:58] [debug] ESP+000002c0: 0019f564 638eb6c0 0019f65c 0019f5a8
+[04:02:58] [debug] ESP+000002e0: 0019f5a0 6392047f 0019f5a8 0019f5ac
+[04:02:58] [debug] ESP+00000300: 638eb670 cccccccc 0019f658 0019f658
+[04:02:58] [debug] ESP+00000320: 6391b2e4 009212d8 0094d408 00000000
+[04:02:58] [debug] ESP+00000340: 0019f754 0019f5ec 0019f5f8 0019f620
+[04:02:58] [debug] ESP+00000360: cccccccc 0019f5ac 00000000 00000000
+[04:02:58] [debug] ESP+00000380: 0019f5b0 cccccccc 0019f5a0 0019f5a0
+[04:02:58] [debug] ESP+000003a0: cccccccc 639a291c cccccccc cccccccc
+[04:02:58] [debug] ESP+000003c0: cccccccc cccccccc 0019f628 cccccccc
+[04:02:58] [debug] ESP+000003e0: cccccccc cccccccc cccccccc cccccccc
+[04:02:58] [debug] Loaded modules:
+[04:02:58] [debug] 00400000 - 00519000 samp-server.exe
+[04:02:58] [debug] 77860000 - 77a04000 ntdll.dll
+[04:02:58] [debug] 76650000 - 76740000 KERNEL32.DLL
+[04:02:58] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[04:02:58] [debug] 76b30000 - 770e7000 SHELL32.dll
+[04:02:58] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[04:02:58] [debug] 75870000 - 75990000 ucrtbase.dll
+[04:02:58] [debug] 770f0000 - 7728c000 USER32.dll
+[04:02:58] [debug] 77510000 - 77528000 win32u.dll
+[04:02:58] [debug] 76a10000 - 76a34000 GDI32.dll
+[04:02:58] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[04:02:58] [debug] 75410000 - 75418000 WSOCK32.dll
+[04:02:58] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[04:02:58] [debug] 77530000 - 775ef000 msvcrt.dll
+[04:02:58] [debug] 777e0000 - 77843000 WS2_32.dll
+[04:02:58] [debug] 76810000 - 768cf000 RPCRT4.dll
+[04:02:58] [debug] 77370000 - 77395000 IMM32.DLL
+[04:02:58] [debug] 65af0000 - 65b79000 crashdetect.dll
+[04:02:58] [debug] 659d0000 - 65a41000 MSVCP120.dll
+[04:02:58] [debug] 64090000 - 6417e000 MSVCR120.dll
+[04:02:58] [debug] 637d0000 - 639e5000 ucrp.dll
+[04:02:58] [debug] 69b70000 - 69b8e000 VCRUNTIME140D.dll
+[04:02:58] [debug] 63430000 - 635d5000 ucrtbased.dll
+[04:02:58] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[04:02:58] [debug] 753b0000 - 75402000 mswsock.dll
+[04:02:58] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[04:02:58] [debug] 76740000 - 767b6000 sechost.dll
+[04:02:58] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[04:02:58] [debug] 6e610000 - 6e620000 wshbth.dll
+[04:02:58] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[04:02:58] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[04:02:58] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[04:02:58] [debug] 77680000 - 77687000 NSI.dll
+[04:02:58] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[04:02:58] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[04:02:58] [debug] 77690000 - 776a9000 bcrypt.dll
+[04:02:58] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[04:02:58] [debug] 74a80000 - 74a8f000 kernel.appcore.dll
+[04:02:58] [debug] 73ad0000 - 73b65000 TextShaping.dll
+[04:02:58] [debug] 74de0000 - 74e54000 uxtheme.dll
+[04:02:58] [debug] 75da0000 - 76020000 combase.dll
+[04:02:58] [debug] 76a50000 - 76b24000 MSCTF.dll
+[04:02:58] [debug] 75750000 - 757e6000 OLEAUT32.dll
+[04:02:58] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+[04:02:58] [debug] 73fa0000 - 7405a000 textinputframework.dll
+[04:02:58] [debug] 73d20000 - 73f9f000 CoreUIComponents.dll
+[04:02:58] [debug] 73c80000 - 73d1b000 CoreMessaging.dll
+[04:02:58] [debug] 775f0000 - 77677000 SHCORE.dll
+[04:02:58] [debug] 75c30000 - 75cab000 advapi32.dll
+[04:02:58] [debug] 73c50000 - 73c79000 ntmarta.dll
+[04:02:58] [debug] 73b70000 - 73c4c000 wintypes.dll
+[04:02:58] [debug] 776b0000 - 77793000 ole32.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:06:30] 
+[04:06:30] Server Plugins
+[04:06:30] --------------
+[04:06:30]  Loading plugin: crashdetect.dll
+[04:06:30]   CrashDetect plugin 4.21
+[04:06:30]   Loaded.
+[04:06:30]  Loading plugin: ucrp.dll
+[04:06:30]   Loaded.
+[04:06:30]  Loaded 2 plugins.
+
+[04:06:31] 
+[04:06:31] Filterscripts
+[04:06:31] ---------------
+[04:06:31]   Loaded 0 filterscripts.
+
+[04:06:31] ----------------------------------
+[04:06:31]  United Capital: Roleplay
+[04:06:31] ----------------------------------
+[04:06:31] Setting server password to: "loadserverwaitplease"
+[04:06:31] Number of vehicle models: 0
+[04:06:41] Server password has been removed.
+[04:06:41] Server Open!
+[04:06:44] [connection] incoming connection: 127.0.0.1:53809 id: 0
+[04:06:44] [join] Patrick_Dempsey has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:09:05] 
+[04:09:05] Server Plugins
+[04:09:05] --------------
+[04:09:05]  Loading plugin: crashdetect.dll
+[04:09:05]   CrashDetect plugin 4.21
+[04:09:05]   Loaded.
+[04:09:05]  Loading plugin: ucrp.dll
+[04:09:05]   Loaded.
+[04:09:05]  Loaded 2 plugins.
+
+[04:09:05] 
+[04:09:05] Filterscripts
+[04:09:05] ---------------
+[04:09:05]   Loaded 0 filterscripts.
+
+[04:09:05] ----------------------------------
+[04:09:05]  United Capital: Roleplay
+[04:09:05] ----------------------------------
+[04:09:05] Setting server password to: "loadserverwaitplease"
+[04:09:05] Number of vehicle models: 0
+[04:09:15] Server password has been removed.
+[04:09:15] Server Open!
+[04:09:15] [connection] incoming connection: 127.0.0.1:56999 id: 0
+[04:09:16] [join] Patrick_Dempsey has joined the server (0:127.0.0.1)
+[04:09:26] 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:10:14] 
+[04:10:14] Server Plugins
+[04:10:14] --------------
+[04:10:14]  Loading plugin: crashdetect.dll
+[04:10:14]   CrashDetect plugin 4.21
+[04:10:14]   Loaded.
+[04:10:14]  Loading plugin: ucrp.dll
+[04:10:14]   Loaded.
+[04:10:14]  Loaded 2 plugins.
+
+[04:10:14] 
+[04:10:14] Filterscripts
+[04:10:14] ---------------
+[04:10:14]   Loaded 0 filterscripts.
+
+[04:10:14] ----------------------------------
+[04:10:14]  United Capital: Roleplay
+[04:10:14] ----------------------------------
+[04:10:14] Setting server password to: "loadserverwaitplease"
+[04:10:14] Number of vehicle models: 0
+[04:10:24] Server password has been removed.
+[04:10:24] Server Open!
+[04:10:31] [connection] incoming connection: 127.0.0.1:56970 id: 0
+[04:10:31] [join] Patrick_Dempsey has joined the server (0:127.0.0.1)
+[04:10:46] 0
+[04:11:12] 1
+[04:11:17] 2
+[04:11:26] 2
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:12:21] 
+[04:12:21] Server Plugins
+[04:12:21] --------------
+[04:12:21]  Loading plugin: crashdetect.dll
+[04:12:21]   CrashDetect plugin 4.21
+[04:12:21]   Loaded.
+[04:12:21]  Loading plugin: ucrp.dll
+[04:12:21]   Loaded.
+[04:12:21]  Loaded 2 plugins.
+
+[04:12:21] 
+[04:12:21] Filterscripts
+[04:12:21] ---------------
+[04:12:21]   Loaded 0 filterscripts.
+
+[04:12:21] ----------------------------------
+[04:12:21]  United Capital: Roleplay
+[04:12:21] ----------------------------------
+[04:12:21] Setting server password to: "loadserverwaitplease"
+[04:12:21] Number of vehicle models: 0
+[04:12:25] [connection] incoming connection: 127.0.0.1:51653 id: 0
+[04:12:31] Server password has been removed.
+[04:12:31] Server Open!
+[04:12:39] [connection] incoming connection: 127.0.0.1:50032 id: 0
+[04:12:39] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[04:12:52] 2
+[04:12:57] 2
+[04:13:02] UPDATE Characters SET PositionX = '-1791.1665', PositionY = '567.9482', PositionZ = '332.80194', PositionR = '41.95591', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[04:13:02] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:16:04] 
+[04:16:04] Server Plugins
+[04:16:04] --------------
+[04:16:04]  Loading plugin: crashdetect.dll
+[04:16:04]   CrashDetect plugin 4.21
+[04:16:04]   Loaded.
+[04:16:04]  Loading plugin: ucrp.dll
+[04:16:04]   Loaded.
+[04:16:04]  Loaded 2 plugins.
+
+[04:16:04] 
+[04:16:04] Filterscripts
+[04:16:04] ---------------
+[04:16:04]   Loaded 0 filterscripts.
+
+[04:16:04] ----------------------------------
+[04:16:04]  United Capital: Roleplay
+[04:16:04] ----------------------------------
+[04:16:04] Setting server password to: "loadserverwaitplease"
+[04:16:04] Number of vehicle models: 0
+[04:16:14] Server password has been removed.
+[04:16:14] Server Open!
+[04:17:35] [connection] incoming connection: 127.0.0.1:54534 id: 0
+[04:17:35] [join] Printf has joined the server (0:127.0.0.1)
+[04:18:06] 2
+[04:18:18] 1
+[04:18:22] 6
+[04:18:25] 0
+[04:18:29] 1
+[04:18:32] UPDATE Characters SET PositionX = '-1791.598', PositionY = '568.8106', PositionZ = '332.8047', PositionR = '27.855776', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[04:18:34] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:32:20] 
+[04:32:20] Server Plugins
+[04:32:20] --------------
+[04:32:20]  Loading plugin: crashdetect.dll
+[04:32:20]   CrashDetect plugin 4.21
+[04:32:20]   Loaded.
+[04:32:20]  Loading plugin: ucrp.dll
+[04:32:20]   Loaded.
+[04:32:20]  Loaded 2 plugins.
+
+[04:32:20] 
+[04:32:20] Filterscripts
+[04:32:20] ---------------
+[04:32:20]   Loaded 0 filterscripts.
+
+[04:32:20] ----------------------------------
+[04:32:20]  United Capital: Roleplay
+[04:32:20] ----------------------------------
+[04:32:20] Setting server password to: "loadserverwaitplease"
+[04:32:20] Number of vehicle models: 0
+[04:32:30] Server password has been removed.
+[04:32:30] Server Open!
+[04:32:41] [connection] incoming connection: 127.0.0.1:53674 id: 0
+[04:32:41] [join] Printf has joined the server (0:127.0.0.1)
+[04:33:21] 2
+[04:33:21] [debug] Server crashed due to an unknown error
+[04:33:21] [debug] Native backtrace:
+[04:33:21] [debug] #0 638fe0aa in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #1 638e6f27 in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #2 638f7b80 in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #3 638eb920 in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #4 6392103f in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #5 6391bea4 in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #6 638e4d63 in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #7 6397623f in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #8 639854a1 in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #9 6398808f in ?? () in plugins\ucrp.dll
+[04:33:21] [debug] #10 0046dd10 in ?? () in samp-server.exe
+[04:33:21] [debug] #11 00452120 in ?? () in samp-server.exe
+[04:33:21] [debug] #12 778babb9 in ?? () in C:\WINDOWS\SYSTEM32\ntdll.dll
+[04:33:21] [debug] Registers:
+[04:33:21] [debug] EAX: 00000000 EBX: 00000000 ECX: 00000000 EDX: 00581a04
+[04:33:21] [debug] ESI: 0019f294 EDI: 0019f510 EBP: 0019f2a8 ESP: 0019f2a4
+[04:33:21] [debug] EIP: 638fe0aa EFLAGS: 00010246
+[04:33:21] [debug] Stack:
+[04:33:21] [debug] ESP+00000000: 00000000 0019f51c 638e6f27 dc7bd9c9
+[04:33:21] [debug] ESP+00000020: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000040: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000060: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000080: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+000000a0: cccccccc cccccccc 005aab18 01cccccc
+[04:33:21] [debug] ESP+000000c0: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+000000e0: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000100: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000120: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000140: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000160: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000180: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+000001a0: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+000001c0: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+000001e0: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000200: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000220: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000240: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+00000260: cccccccc 0019f65c dc7bd9c9 0019f594
+[04:33:21] [debug] ESP+00000280: 005824b8 005ab110 005819e8 00581a20
+[04:33:21] [debug] ESP+000002a0: 0019f564 638eb920 0019f65c 0019f5a8
+[04:33:21] [debug] ESP+000002c0: 0019f5a0 6392103f 0019f5a8 0019f5ac
+[04:33:21] [debug] ESP+000002e0: 638eb8d0 cccccccc 0019f658 0019f658
+[04:33:21] [debug] ESP+00000300: 6391bea4 005824b8 005ab618 00000000
+[04:33:21] [debug] ESP+00000320: 0019f754 0019f5ec 0019f5f8 0019f620
+[04:33:21] [debug] ESP+00000340: cccccccc 0019f5ac 00000000 00000000
+[04:33:21] [debug] ESP+00000360: 0019f5b0 cccccccc 0019f5a0 0019f5a0
+[04:33:21] [debug] ESP+00000380: cccccccc 639acfc4 cccccccc cccccccc
+[04:33:21] [debug] ESP+000003a0: cccccccc cccccccc 0019f628 cccccccc
+[04:33:21] [debug] ESP+000003c0: cccccccc cccccccc cccccccc cccccccc
+[04:33:21] [debug] ESP+000003e0: 00000000 005aac00 00000000 00000000
+[04:33:21] [debug] Loaded modules:
+[04:33:21] [debug] 00400000 - 00519000 samp-server.exe
+[04:33:21] [debug] 77860000 - 77a04000 ntdll.dll
+[04:33:21] [debug] 76650000 - 76740000 KERNEL32.DLL
+[04:33:21] [debug] 759f0000 - 75c2a000 KERNELBASE.dll
+[04:33:21] [debug] 76b30000 - 770e7000 SHELL32.dll
+[04:33:21] [debug] 757f0000 - 7586b000 msvcp_win.dll
+[04:33:21] [debug] 75870000 - 75990000 ucrtbase.dll
+[04:33:21] [debug] 770f0000 - 7728c000 USER32.dll
+[04:33:21] [debug] 77510000 - 77528000 win32u.dll
+[04:33:21] [debug] 76a10000 - 76a34000 GDI32.dll
+[04:33:21] [debug] 75cb0000 - 75d98000 gdi32full.dll
+[04:33:21] [debug] 75410000 - 75418000 WSOCK32.dll
+[04:33:21] [debug] 77530000 - 775ef000 msvcrt.dll
+[04:33:21] [debug] 777e0000 - 77843000 WS2_32.dll
+[04:33:21] [debug] 76810000 - 768cf000 RPCRT4.dll
+[04:33:21] [debug] 6ed70000 - 6ed98000 WINMM.dll
+[04:33:21] [debug] 77370000 - 77395000 IMM32.DLL
+[04:33:21] [debug] 65af0000 - 65b79000 crashdetect.dll
+[04:33:21] [debug] 659d0000 - 65a41000 MSVCP120.dll
+[04:33:21] [debug] 64090000 - 6417e000 MSVCR120.dll
+[04:33:21] [debug] 637d0000 - 639e6000 ucrp.dll
+[04:33:21] [debug] 68030000 - 6804e000 VCRUNTIME140D.dll
+[04:33:21] [debug] 63fd0000 - 64082000 MSVCP140D.dll
+[04:33:21] [debug] 63430000 - 635d5000 ucrtbased.dll
+[04:33:21] [debug] 753b0000 - 75402000 mswsock.dll
+[04:33:21] [debug] 6eb70000 - 6eb81000 napinsp.dll
+[04:33:21] [debug] 76740000 - 767b6000 sechost.dll
+[04:33:21] [debug] 6eae0000 - 6eaf6000 pnrpnsp.dll
+[04:33:21] [debug] 6e610000 - 6e620000 wshbth.dll
+[04:33:21] [debug] 6e4b0000 - 6e4c6000 NLAapi.dll
+[04:33:21] [debug] 74bd0000 - 74c02000 IPHLPAPI.DLL
+[04:33:21] [debug] 74c10000 - 74ca0000 DNSAPI.dll
+[04:33:21] [debug] 77680000 - 77687000 NSI.dll
+[04:33:21] [debug] 6e4a0000 - 6e4ae000 winrnr.dll
+[04:33:21] [debug] 74ae0000 - 74b39000 fwpuclnt.dll
+[04:33:21] [debug] 77690000 - 776a9000 bcrypt.dll
+[04:33:21] [debug] 74ad0000 - 74ad8000 rasadhlp.dll
+[04:33:21] [debug] 77310000 - 7736f000 bcryptPrimitives.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:39:33] 
+[22:39:33] Server Plugins
+[22:39:33] --------------
+[22:39:33]  Loading plugin: crashdetect.dll
+[22:39:34]   CrashDetect plugin 4.21
+[22:39:34]   Loaded.
+[22:39:34]  Loading plugin: ucrp.dll
+[22:39:34]   Loaded.
+[22:39:34]  Loaded 2 plugins.
+
+[22:39:34] 
+[22:39:34] Filterscripts
+[22:39:34] ---------------
+[22:39:34]   Loaded 0 filterscripts.
+
+[22:39:34] ----------------------------------
+[22:39:34]  United Capital: Roleplay
+[22:39:34] ----------------------------------
+[22:39:34] Setting server password to: "loadserverwaitplease"
+[22:39:34] Number of vehicle models: 0
+[22:39:44] Server password has been removed.
+[22:39:44] Server Open!
+[22:39:53] [connection] incoming connection: 127.0.0.1:54346 id: 0
+[22:39:54] [join] Printf has joined the server (0:127.0.0.1)
+[22:40:31] UPDATE Characters SET PositionX = '-2024.8152', PositionY = '445.21594', PositionZ = '139.74216', PositionR = '269.1247', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[22:40:31] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:05:11] 
+[20:05:11] Server Plugins
+[20:05:11] --------------
+[20:05:11]  Loading plugin: crashdetect.dll
+[20:05:11]   CrashDetect plugin 4.21
+[20:05:11]   Loaded.
+[20:05:11]  Loading plugin: ucrp.dll
+[20:05:11]   Loaded.
+[20:05:11]  Loaded 2 plugins.
+
+[20:05:12] 
+[20:05:12] Filterscripts
+[20:05:12] ---------------
+[20:05:12]   Loaded 0 filterscripts.
+
+[20:05:12] ----------------------------------
+[20:05:12]     United Capital: Roleplay
+[20:05:12] ----------------------------------
+[20:05:12] -1
+[20:05:12] Setting server password to: "loadserverwaitplease"
+[20:05:12] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:08:26] 
+[20:08:26] Server Plugins
+[20:08:26] --------------
+[20:08:26]  Loading plugin: crashdetect.dll
+[20:08:26]   CrashDetect plugin 4.21
+[20:08:26]   Loaded.
+[20:08:26]  Loading plugin: ucrp.dll
+[20:08:27]   Loaded.
+[20:08:27]  Loaded 2 plugins.
+
+[20:08:27] 
+[20:08:27] Filterscripts
+[20:08:27] ---------------
+[20:08:27]   Loaded 0 filterscripts.
+
+[20:08:27] ----------------------------------
+[20:08:27]     United Capital: Roleplay
+[20:08:27] ----------------------------------
+[20:08:27] 0
+[20:08:27] Setting server password to: "loadserverwaitplease"
+[20:08:27] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:08:45] 
+[20:08:45] Server Plugins
+[20:08:45] --------------
+[20:08:45]  Loading plugin: crashdetect.dll
+[20:08:45]   CrashDetect plugin 4.21
+[20:08:45]   Loaded.
+[20:08:45]  Loading plugin: ucrp.dll
+[20:08:45]   Loaded.
+[20:08:45]  Loaded 2 plugins.
+
+[20:08:45] 
+[20:08:45] Filterscripts
+[20:08:45] ---------------
+[20:08:45]   Loaded 0 filterscripts.
+
+[20:08:45] ----------------------------------
+[20:08:45]     United Capital: Roleplay
+[20:08:45] ----------------------------------
+[20:08:45] 0
+[20:08:45] Setting server password to: "loadserverwaitplease"
+[20:08:45] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:12:03] 
+[20:12:03] Server Plugins
+[20:12:03] --------------
+[20:12:03]  Loading plugin: crashdetect.dll
+[20:12:03]   CrashDetect plugin 4.21
+[20:12:03]   Loaded.
+[20:12:03]  Loading plugin: ucrp.dll
+[20:12:03]   Loaded.
+[20:12:03]  Loaded 2 plugins.
+
+[20:12:03] 
+[20:12:03] Filterscripts
+[20:12:03] ---------------
+[20:12:03]   Loaded 0 filterscripts.
+
+[20:12:03] ----------------------------------
+[20:12:03]     United Capital: Roleplay
+[20:12:03] ----------------------------------
+[20:12:03] 1
+[20:12:03] Setting server password to: "loadserverwaitplease"
+[20:12:03] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:13:09] 
+[03:13:09] Server Plugins
+[03:13:09] --------------
+[03:13:09]  Loading plugin: crashdetect.dll
+[03:13:09]   CrashDetect plugin 4.21
+[03:13:09]   Loaded.
+[03:13:09]  Loading plugin: ucrp.dll
+[03:13:09]   Loaded.
+[03:13:09]  Loaded 2 plugins.
+
+[03:13:09] 
+[03:13:09] Filterscripts
+[03:13:09] ---------------
+[03:13:09]   Loaded 0 filterscripts.
+
+[03:13:09] ----------------------------------
+[03:13:09]     United Capital: Roleplay
+[03:13:09] ----------------------------------
+[03:13:09] Setting server password to: "loadserverwaitplease"
+[03:13:09] Number of vehicle models: 0
+[03:13:19] Server password has been removed.
+[03:13:19] Server Open!
+[03:14:01] [connection] incoming connection: 127.0.0.1:56564 id: 0
+[03:14:01] [join] Printf has joined the server (0:127.0.0.1)
+[03:14:20] [part] Gianluca_Bianchi has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:16:00] 
+[03:16:00] Server Plugins
+[03:16:00] --------------
+[03:16:00]  Loading plugin: crashdetect.dll
+[03:16:00]   CrashDetect plugin 4.21
+[03:16:00]   Loaded.
+[03:16:00]  Loading plugin: ucrp.dll
+[03:16:00]   Loaded.
+[03:16:00]  Loaded 2 plugins.
+
+[03:16:00] 
+[03:16:00] Filterscripts
+[03:16:00] ---------------
+[03:16:00]   Loaded 0 filterscripts.
+
+[03:16:00] ----------------------------------
+[03:16:00]     United Capital: Roleplay
+[03:16:00] ----------------------------------
+[03:16:00] Setting server password to: "loadserverwaitplease"
+[03:16:00] Number of vehicle models: 0
+[03:16:10] Server password has been removed.
+[03:16:10] Server Open!
+[03:16:22] [connection] incoming connection: 127.0.0.1:53468 id: 0
+[03:16:22] [join] Printf has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:24:50] 
+[03:24:50] Server Plugins
+[03:24:50] --------------
+[03:24:50]  Loading plugin: crashdetect.dll
+[03:24:50]   CrashDetect plugin 4.21
+[03:24:50]   Loaded.
+[03:24:50]  Loading plugin: ucrp.dll
+[03:24:50]   Loaded.
+[03:24:50]  Loaded 2 plugins.
+
+[03:24:50] 
+[03:24:50] Filterscripts
+[03:24:50] ---------------
+[03:24:50]   Loaded 0 filterscripts.
+
+[03:24:50] ----------------------------------
+[03:24:50]     United Capital: Roleplay
+[03:24:50] ----------------------------------
+[03:24:50] Setting server password to: "loadserverwaitplease"
+[03:24:50] Number of vehicle models: 0
+[03:25:00] Server password has been removed.
+[03:25:00] Server Open!
+[03:25:04] [connection] incoming connection: 127.0.0.1:60828 id: 0
+[03:25:04] [join] Francesco_Cipriano has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:27:15] 
+[03:27:15] Server Plugins
+[03:27:15] --------------
+[03:27:15]  Loading plugin: crashdetect.dll
+[03:27:15]   CrashDetect plugin 4.21
+[03:27:15]   Loaded.
+[03:27:15]  Loading plugin: ucrp.dll
+[03:27:15]   Loaded.
+[03:27:15]  Loaded 2 plugins.
+
+[03:27:15] 
+[03:27:15] Filterscripts
+[03:27:15] ---------------
+[03:27:15]   Loaded 0 filterscripts.
+
+[03:27:15] ----------------------------------
+[03:27:15]     United Capital: Roleplay
+[03:27:15] ----------------------------------
+[03:27:15] Setting server password to: "loadserverwaitplease"
+[03:27:15] Number of vehicle models: 0
+[03:27:25] [connection] incoming connection: 127.0.0.1:58233 id: 0
+[03:27:25] Server password has been removed.
+[03:27:25] Server Open!
+[03:27:38] [connection] incoming connection: 127.0.0.1:57727 id: 0
+[03:27:38] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:27:47] 8
+[03:27:47] 52
+[03:27:47] 1
+[03:27:47] 0
+[03:27:47] 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:31:00] 
+[03:31:00] Server Plugins
+[03:31:00] --------------
+[03:31:00]  Loading plugin: crashdetect.dll
+[03:31:00]   CrashDetect plugin 4.21
+[03:31:00]   Loaded.
+[03:31:00]  Loading plugin: ucrp.dll
+[03:31:00]   Loaded.
+[03:31:00]  Loaded 2 plugins.
+
+[03:31:00] 
+[03:31:00] Filterscripts
+[03:31:00] ---------------
+[03:31:00]   Loaded 0 filterscripts.
+
+[03:31:00] ----------------------------------
+[03:31:00]     United Capital: Roleplay
+[03:31:00] ----------------------------------
+[03:31:00] Setting server password to: "loadserverwaitplease"
+[03:31:00] Number of vehicle models: 0
+[03:31:10] Server password has been removed.
+[03:31:10] Server Open!
+[03:31:41] [connection] incoming connection: 127.0.0.1:63139 id: 0
+[03:31:42] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:33:49] 
+[03:33:49] Server Plugins
+[03:33:49] --------------
+[03:33:49]  Loading plugin: crashdetect.dll
+[03:33:49]   CrashDetect plugin 4.21
+[03:33:49]   Loaded.
+[03:33:49]  Loading plugin: ucrp.dll
+[03:33:49]   Loaded.
+[03:33:49]  Loaded 2 plugins.
+
+[03:33:49] 
+[03:33:49] Filterscripts
+[03:33:49] ---------------
+[03:33:49]   Loaded 0 filterscripts.
+
+[03:33:49] ----------------------------------
+[03:33:49]     United Capital: Roleplay
+[03:33:49] ----------------------------------
+[03:33:49] Setting server password to: "loadserverwaitplease"
+[03:33:49] Number of vehicle models: 0
+[03:33:59] Server password has been removed.
+[03:33:59] Server Open!
+[03:34:24] [connection] incoming connection: 127.0.0.1:57391 id: 0
+[03:34:24] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+[03:34:33] 2
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:35:09] 
+[03:35:09] Server Plugins
+[03:35:09] --------------
+[03:35:09]  Loading plugin: crashdetect.dll
+[03:35:09]   CrashDetect plugin 4.21
+[03:35:09]   Loaded.
+[03:35:09]  Loading plugin: ucrp.dll
+[03:35:09]   Loaded.
+[03:35:09]  Loaded 2 plugins.
+
+[03:35:09] 
+[03:35:09] Filterscripts
+[03:35:09] ---------------
+[03:35:09]   Loaded 0 filterscripts.
+
+[03:35:09] ----------------------------------
+[03:35:09]     United Capital: Roleplay
+[03:35:09] ----------------------------------
+[03:35:09] Setting server password to: "loadserverwaitplease"
+[03:35:09] Number of vehicle models: 0
+[03:35:19] Server password has been removed.
+[03:35:19] Server Open!
+[03:35:40] [connection] incoming connection: 127.0.0.1:60052 id: 0
+[03:35:41] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:35:49] 2
+[03:35:49] 8
+[03:35:49] 52
+[03:35:49] 1
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+[03:35:49] 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:38:02] 
+[03:38:02] Server Plugins
+[03:38:02] --------------
+[03:38:02]  Loading plugin: crashdetect.dll
+[03:38:02]   CrashDetect plugin 4.21
+[03:38:02]   Loaded.
+[03:38:02]  Loading plugin: ucrp.dll
+[03:38:02]   Loaded.
+[03:38:02]  Loaded 2 plugins.
+
+[03:38:02] 
+[03:38:02] Filterscripts
+[03:38:02] ---------------
+[03:38:02]   Loaded 0 filterscripts.
+
+[03:38:02] ----------------------------------
+[03:38:02]     United Capital: Roleplay
+[03:38:02] ----------------------------------
+[03:38:02] Setting server password to: "loadserverwaitplease"
+[03:38:02] Number of vehicle models: 0
+[03:38:04] [connection] incoming connection: 127.0.0.1:58287 id: 0
+[03:38:12] Server password has been removed.
+[03:38:12] Server Open!
+[03:38:14] [connection] incoming connection: 127.0.0.1:58886 id: 0
+[03:38:15] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:38:24] 0: 2
+[03:38:24] 1: 8
+[03:38:24] 2: 52
+[03:38:24] 3: 1
+[03:38:24] 4: 0
+[03:38:24] 5: 0
+[03:38:24] 6: 0
+[03:38:24] 7: 0
+[03:38:24] 8: 0
+[03:38:24] 9: 0
+[03:38:24] 10: 0
+[03:38:24] 11: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:46:07] 
+[03:46:07] Server Plugins
+[03:46:07] --------------
+[03:46:07]  Loading plugin: crashdetect.dll
+[03:46:07]   CrashDetect plugin 4.21
+[03:46:07]   Loaded.
+[03:46:07]  Loading plugin: ucrp.dll
+[03:46:07]   Loaded.
+[03:46:07]  Loaded 2 plugins.
+
+[03:46:07] 
+[03:46:07] Filterscripts
+[03:46:07] ---------------
+[03:46:07]   Loaded 0 filterscripts.
+
+[03:46:07] ----------------------------------
+[03:46:07]     United Capital: Roleplay
+[03:46:07] ----------------------------------
+[03:46:07] Setting server password to: "loadserverwaitplease"
+[03:46:07] Number of vehicle models: 0
+[03:46:17] Server password has been removed.
+[03:46:17] Server Open!
+[03:46:27] [connection] incoming connection: 127.0.0.1:58380 id: 0
+[03:46:27] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:46:35] 0: 2
+[03:46:35] 1: 8
+[03:46:35] 2: 52
+[03:46:35] 3: 1
+[03:46:35] 4: 0
+[03:46:35] 5: 0
+[03:46:35] 6: 0
+[03:46:35] 7: 0
+[03:46:35] 8: 0
+[03:46:35] 9: 0
+[03:46:35] 10: 0
+[03:46:35] 11: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:47:23] 
+[03:47:23] Server Plugins
+[03:47:23] --------------
+[03:47:23]  Loading plugin: crashdetect.dll
+[03:47:23]   CrashDetect plugin 4.21
+[03:47:23]   Loaded.
+[03:47:23]  Loading plugin: ucrp.dll
+[03:47:24]   Loaded.
+[03:47:24]  Loaded 2 plugins.
+
+[03:47:24] 
+[03:47:24] Filterscripts
+[03:47:24] ---------------
+[03:47:24]   Loaded 0 filterscripts.
+
+[03:47:24] ----------------------------------
+[03:47:24]     United Capital: Roleplay
+[03:47:24] ----------------------------------
+[03:47:24] Setting server password to: "loadserverwaitplease"
+[03:47:24] Number of vehicle models: 0
+[03:47:34] Server password has been removed.
+[03:47:34] Server Open!
+[03:47:42] [connection] incoming connection: 127.0.0.1:55988 id: 0
+[03:47:42] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:47:52] 0: 2
+[03:47:52] 1: 8
+[03:47:52] 2: 52
+[03:47:52] 3: 1
+[03:47:52] 4: 0
+[03:47:52] 5: 0
+[03:47:52] 6: 0
+[03:47:52] 7: 0
+[03:47:52] 8: 0
+[03:47:52] 9: 0
+[03:47:52] 10: 0
+[03:47:52] 11: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:49:45] 
+[03:49:45] Server Plugins
+[03:49:45] --------------
+[03:49:45]  Loading plugin: crashdetect.dll
+[03:49:45]   CrashDetect plugin 4.21
+[03:49:45]   Loaded.
+[03:49:45]  Loading plugin: ucrp.dll
+[03:49:45]   Loaded.
+[03:49:45]  Loaded 2 plugins.
+
+[03:49:45] 
+[03:49:45] Filterscripts
+[03:49:45] ---------------
+[03:49:45]   Loaded 0 filterscripts.
+
+[03:49:45] ----------------------------------
+[03:49:45]     United Capital: Roleplay
+[03:49:45] ----------------------------------
+[03:49:45] Setting server password to: "loadserverwaitplease"
+[03:49:45] Number of vehicle models: 0
+[03:49:55] Server password has been removed.
+[03:49:55] Server Open!
+[03:50:14] [connection] incoming connection: 127.0.0.1:58242 id: 0
+[03:50:14] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:50:23] 0: 2
+[03:50:23] 1: 8
+[03:50:23] 2: 52
+[03:50:23] 3: 1
+[03:50:23] 4: 0
+[03:50:23] 5: 0
+[03:50:23] 6: 0
+[03:50:23] 7: 0
+[03:50:23] 8: 0
+[03:50:23] 9: 0
+[03:50:23] 10: 0
+[03:50:23] 11: 0
+[03:50:23] {}
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:51:51] 
+[03:51:51] Server Plugins
+[03:51:51] --------------
+[03:51:51]  Loading plugin: crashdetect.dll
+[03:51:51]   CrashDetect plugin 4.21
+[03:51:51]   Loaded.
+[03:51:51]  Loading plugin: ucrp.dll
+[03:51:51]   Loaded.
+[03:51:51]  Loaded 2 plugins.
+
+[03:51:51] 
+[03:51:51] Filterscripts
+[03:51:51] ---------------
+[03:51:51]   Loaded 0 filterscripts.
+
+[03:51:51] ----------------------------------
+[03:51:51]     United Capital: Roleplay
+[03:51:51] ----------------------------------
+[03:51:51] Setting server password to: "loadserverwaitplease"
+[03:51:51] Number of vehicle models: 0
+[03:52:01] Server password has been removed.
+[03:52:01] Server Open!
+[03:52:03] [connection] incoming connection: 127.0.0.1:59837 id: 0
+[03:52:04] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:52:12] 0: 2
+[03:52:12] 1: 8
+[03:52:12] 2: 52
+[03:52:12] 3: 1
+[03:52:12] 4: 0
+[03:52:12] 5: 0
+[03:52:12] 6: 0
+[03:52:12] 7: 0
+[03:52:12] 8: 0
+[03:52:12] 9: 0
+[03:52:12] 10: 0
+[03:52:12] 11: 0
+[03:52:12] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:56:34] 
+[03:56:34] Server Plugins
+[03:56:34] --------------
+[03:56:34]  Loading plugin: crashdetect.dll
+[03:56:34]   CrashDetect plugin 4.21
+[03:56:34]   Loaded.
+[03:56:34]  Loading plugin: ucrp.dll
+[03:56:34]   Loaded.
+[03:56:34]  Loaded 2 plugins.
+
+[03:56:34] 
+[03:56:34] Filterscripts
+[03:56:34] ---------------
+[03:56:34]   Loaded 0 filterscripts.
+
+[03:56:34] ----------------------------------
+[03:56:34]     United Capital: Roleplay
+[03:56:34] ----------------------------------
+[03:56:34] Setting server password to: "loadserverwaitplease"
+[03:56:34] Number of vehicle models: 0
+[03:56:44] Server password has been removed.
+[03:56:44] Server Open!
+[03:56:47] [connection] incoming connection: 127.0.0.1:64531 id: 0
+[03:56:47] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:56:54] 0: 2
+[03:56:54] 1: 8
+[03:56:54] 2: 52
+[03:56:54] 3: 1
+[03:56:54] 4: 0
+[03:56:54] 5: 0
+[03:56:54] 6: 0
+[03:56:54] 7: 0
+[03:56:54] 8: 0
+[03:56:54] 9: 0
+[03:56:54] 10: 0
+[03:56:54] 11: 0
+[03:56:54] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:58:36] 
+[03:58:36] Server Plugins
+[03:58:36] --------------
+[03:58:36]  Loading plugin: crashdetect.dll
+[03:58:36]   CrashDetect plugin 4.21
+[03:58:36]   Loaded.
+[03:58:36]  Loading plugin: ucrp.dll
+[03:58:38]   Loaded.
+[03:58:38]  Loaded 2 plugins.
+
+[03:58:38] 
+[03:58:38] Filterscripts
+[03:58:38] ---------------
+[03:58:38]   Loaded 0 filterscripts.
+
+[03:58:38] ----------------------------------
+[03:58:38]     United Capital: Roleplay
+[03:58:38] ----------------------------------
+[03:58:38] Setting server password to: "loadserverwaitplease"
+[03:58:38] Number of vehicle models: 0
+[03:58:48] Server password has been removed.
+[03:58:48] Server Open!
+[03:59:25] [connection] incoming connection: 127.0.0.1:56051 id: 0
+[03:59:25] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:59:32] 0: 2
+[03:59:32] 1: 8
+[03:59:32] 2: 52
+[03:59:32] 3: 1
+[03:59:32] 4: 0
+[03:59:32] 5: 0
+[03:59:32] 6: 0
+[03:59:32] 7: 0
+[03:59:32] 8: 0
+[03:59:32] 9: 0
+[03:59:32] 10: 0
+[03:59:32] 11: 0
+[03:59:32] Samsung (Negro)
+[03:59:35] {}
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:00:57] 
+[04:00:57] Server Plugins
+[04:00:57] --------------
+[04:00:57]  Loading plugin: crashdetect.dll
+[04:00:57]   CrashDetect plugin 4.21
+[04:00:57]   Loaded.
+[04:00:57]  Loading plugin: ucrp.dll
+[04:00:57]   Loaded.
+[04:00:57]  Loaded 2 plugins.
+
+[04:00:57] 
+[04:00:57] Filterscripts
+[04:00:57] ---------------
+[04:00:57]   Loaded 0 filterscripts.
+
+[04:00:57] ----------------------------------
+[04:00:57]     United Capital: Roleplay
+[04:00:57] ----------------------------------
+[04:00:57] Setting server password to: "loadserverwaitplease"
+[04:00:57] Number of vehicle models: 0
+[04:01:07] Server password has been removed.
+[04:01:07] Server Open!
+[04:01:15] [connection] incoming connection: 127.0.0.1:61957 id: 0
+[04:01:15] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[04:01:30] 0: 2
+[04:01:30] 1: 8
+[04:01:30] 2: 52
+[04:01:30] 3: 1
+[04:01:30] 4: 0
+[04:01:30] 5: 0
+[04:01:30] 6: 0
+[04:01:30] 7: 0
+[04:01:30] 8: 0
+[04:01:30] 9: 0
+[04:01:30] 10: 0
+[04:01:30] 11: 0
+[04:01:30] Samsung (Negro)
+[04:01:32] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:02:43] 
+[04:02:43] Server Plugins
+[04:02:43] --------------
+[04:02:43]  Loading plugin: crashdetect.dll
+[04:02:43]   CrashDetect plugin 4.21
+[04:02:43]   Loaded.
+[04:02:43]  Loading plugin: ucrp.dll
+[04:02:43]   Loaded.
+[04:02:43]  Loaded 2 plugins.
+
+[04:02:43] 
+[04:02:43] Filterscripts
+[04:02:43] ---------------
+[04:02:43]   Loaded 0 filterscripts.
+
+[04:02:43] ----------------------------------
+[04:02:43]     United Capital: Roleplay
+[04:02:43] ----------------------------------
+[04:02:43] Setting server password to: "loadserverwaitplease"
+[04:02:43] Number of vehicle models: 0
+[04:02:53] Server password has been removed.
+[04:02:53] Server Open!
+[04:02:55] [connection] incoming connection: 127.0.0.1:65325 id: 0
+[04:02:56] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[04:03:04] 0: 2
+[04:03:04] 1: 8
+[04:03:04] 2: 52
+[04:03:04] 3: 1
+[04:03:04] 4: 0
+[04:03:04] 5: 0
+[04:03:04] 6: 0
+[04:03:04] 7: 0
+[04:03:04] 8: 0
+[04:03:04] 9: 0
+[04:03:04] 10: 0
+[04:03:04] 11: 0
+[04:03:04] Samsung (Negro)
+[04:03:10] UPDATE Characters SET PositionX = '-2024.4403', PositionY = '445.2102', PositionZ = '139.74216', PositionR = '269.1247', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[04:03:10] Error en la consulta: database is locked
+[04:03:10] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:04:52] 
+[04:04:52] Server Plugins
+[04:04:52] --------------
+[04:04:52]  Loading plugin: crashdetect.dll
+[04:04:52]   CrashDetect plugin 4.21
+[04:04:52]   Loaded.
+[04:04:52]  Loading plugin: ucrp.dll
+[04:04:52]   Loaded.
+[04:04:52]  Loaded 2 plugins.
+
+[04:04:52] 
+[04:04:52] Filterscripts
+[04:04:52] ---------------
+[04:04:52]   Loaded 0 filterscripts.
+
+[04:04:52] ----------------------------------
+[04:04:52]     United Capital: Roleplay
+[04:04:52] ----------------------------------
+[04:04:52] Setting server password to: "loadserverwaitplease"
+[04:04:52] Number of vehicle models: 0
+[04:05:02] Server password has been removed.
+[04:05:02] Server Open!
+[04:06:05] [connection] incoming connection: 127.0.0.1:55181 id: 0
+[04:06:05] [join] Printf has joined the server (0:127.0.0.1)
+[04:06:28] 0: 2
+[04:06:28] 1: 8
+[04:06:28] 2: 52
+[04:06:28] 3: 1
+[04:06:28] 4: 0
+[04:06:28] 5: 0
+[04:06:28] 6: 0
+[04:06:28] 7: 0
+[04:06:28] 8: 0
+[04:06:28] 9: 0
+[04:06:28] 10: 0
+[04:06:28] 11: 0
+[04:06:28] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:08:29] 
+[04:08:29] Server Plugins
+[04:08:29] --------------
+[04:08:29]  Loading plugin: crashdetect.dll
+[04:08:29]   CrashDetect plugin 4.21
+[04:08:29]   Loaded.
+[04:08:29]  Loading plugin: ucrp.dll
+[04:08:29]   Loaded.
+[04:08:29]  Loaded 2 plugins.
+
+[04:08:29] 
+[04:08:29] Filterscripts
+[04:08:29] ---------------
+[04:08:29]   Loaded 0 filterscripts.
+
+[04:08:29] ----------------------------------
+[04:08:29]     United Capital: Roleplay
+[04:08:29] ----------------------------------
+[04:08:29] Setting server password to: "loadserverwaitplease"
+[04:08:29] Number of vehicle models: 0
+[04:08:39] Server password has been removed.
+[04:08:39] Server Open!
+[04:08:49] [connection] incoming connection: 127.0.0.1:50857 id: 0
+[04:08:49] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[04:09:03] 0: 2
+[04:09:03] 1: 8
+[04:09:03] 2: 52
+[04:09:03] 3: 1
+[04:09:03] 4: 0
+[04:09:03] 5: 0
+[04:09:03] 6: 0
+[04:09:03] 7: 0
+[04:09:03] 8: 0
+[04:09:03] 9: 0
+[04:09:03] 10: 0
+[04:09:03] 11: 0
+[04:09:03] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:10:26] 
+[04:10:26] Server Plugins
+[04:10:26] --------------
+[04:10:26]  Loading plugin: crashdetect.dll
+[04:10:26]   CrashDetect plugin 4.21
+[04:10:26]   Loaded.
+[04:10:26]  Loading plugin: ucrp.dll
+[04:10:26]   Loaded.
+[04:10:26]  Loaded 2 plugins.
+
+[04:10:26] 
+[04:10:26] Filterscripts
+[04:10:26] ---------------
+[04:10:26]   Loaded 0 filterscripts.
+
+[04:10:26] ----------------------------------
+[04:10:26]     United Capital: Roleplay
+[04:10:26] ----------------------------------
+[04:10:26] Setting server password to: "loadserverwaitplease"
+[04:10:26] Number of vehicle models: 0
+[04:10:36] Server password has been removed.
+[04:10:36] Server Open!
+[04:10:39] [connection] incoming connection: 127.0.0.1:53864 id: 0
+[04:10:39] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[04:10:48] 0: 2
+[04:10:48] 1: 8
+[04:10:48] 2: 52
+[04:10:48] 3: 1
+[04:10:48] 4: 0
+[04:10:48] 5: 0
+[04:10:48] 6: 0
+[04:10:48] 7: 0
+[04:10:48] 8: 0
+[04:10:48] 9: 0
+[04:10:48] 10: 0
+[04:10:48] 11: 0
+[04:10:48] Samsung (Negro)
+[04:11:07] UPDATE Characters SET PositionX = '-2024.8152', PositionY = '445.21594', PositionZ = '139.74216', PositionR = '269.1247', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[04:11:07] Error en la consulta: database is locked
+[04:11:07] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:14:09] 
+[04:14:09] Server Plugins
+[04:14:09] --------------
+[04:14:09]  Loading plugin: crashdetect.dll
+[04:14:09]   CrashDetect plugin 4.21
+[04:14:09]   Loaded.
+[04:14:09]  Loading plugin: ucrp.dll
+[04:14:09]   Loaded.
+[04:14:09]  Loaded 2 plugins.
+
+[04:14:09] 
+[04:14:09] Filterscripts
+[04:14:09] ---------------
+[04:14:09]   Loaded 0 filterscripts.
+
+[04:14:09] ----------------------------------
+[04:14:09]     United Capital: Roleplay
+[04:14:09] ----------------------------------
+[04:14:09] Setting server password to: "loadserverwaitplease"
+[04:14:09] Number of vehicle models: 0
+[04:14:19] Server password has been removed.
+[04:14:19] Server Open!
+[04:14:31] [connection] incoming connection: 127.0.0.1:58519 id: 0
+[04:14:31] [join] Printf has joined the server (0:127.0.0.1)
+[04:14:38] 0: 2
+[04:14:38] 1: 8
+[04:14:38] 2: 52
+[04:14:38] 3: 1
+[04:14:38] 4: 0
+[04:14:38] 5: 0
+[04:14:38] 6: 0
+[04:14:38] 7: 0
+[04:14:38] 8: 0
+[04:14:38] 9: 0
+[04:14:38] 10: 0
+[04:14:38] 11: 0
+[04:14:38] Samsung (Negro)
+[04:14:59] UPDATE Characters SET PositionX = '-2024.8152', PositionY = '445.21594', PositionZ = '139.74216', PositionR = '269.1247', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[04:14:59] Error en la consulta: database is locked
+[04:14:59] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:32:14] 
+[05:32:14] Server Plugins
+[05:32:14] --------------
+[05:32:14]  Loading plugin: crashdetect.dll
+[05:32:14]   CrashDetect plugin 4.21
+[05:32:14]   Loaded.
+[05:32:14]  Loading plugin: ucrp.dll
+[05:32:14]   Loaded.
+[05:32:14]  Loaded 2 plugins.
+
+[05:32:14] 
+[05:32:14] Filterscripts
+[05:32:14] ---------------
+[05:32:14]   Loaded 0 filterscripts.
+
+[05:32:14] ----------------------------------
+[05:32:14]     United Capital: Roleplay
+[05:32:14] ----------------------------------
+[05:32:14] Setting server password to: "loadserverwaitplease"
+[05:32:14] Number of vehicle models: 0
+[05:32:24] Server password has been removed.
+[05:32:24] Server Open!
+[05:32:34] [connection] incoming connection: 127.0.0.1:52543 id: 0
+[05:32:34] [join] Printf has joined the server (0:127.0.0.1)
+[05:32:44] 0: 2
+[05:32:44] 1: 8
+[05:32:44] 2: 52
+[05:32:44] 3: 1
+[05:32:44] 4: 0
+[05:32:44] 5: 0
+[05:32:44] 6: 0
+[05:32:44] 7: 0
+[05:32:44] 8: 0
+[05:32:44] 9: 0
+[05:32:44] 10: 0
+[05:32:44] 11: 0
+[05:32:44] Samsung (Negro)
+[05:32:56] UPDATE Characters SET PositionX = '-2055.1694', PositionY = '453.30402', PositionZ = '139.74216', PositionR = '49.173195', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0' WHERE ID = '8'
+[05:32:56] Error en la consulta: database is locked
+[05:32:56] Error en la consulta: database is locked
+[05:32:56] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:43:13] 
+[05:43:13] Server Plugins
+[05:43:13] --------------
+[05:43:13]  Loading plugin: crashdetect.dll
+[05:43:13]   CrashDetect plugin 4.21
+[05:43:13]   Loaded.
+[05:43:13]  Loading plugin: ucrp.dll
+[05:43:13]   Loaded.
+[05:43:13]  Loaded 2 plugins.
+
+[05:43:13] 
+[05:43:13] Filterscripts
+[05:43:13] ---------------
+[05:43:13]   Loaded 0 filterscripts.
+
+[05:43:13] ----------------------------------
+[05:43:13]     United Capital: Roleplay
+[05:43:13] ----------------------------------
+[05:43:13] Setting server password to: "loadserverwaitplease"
+[05:43:13] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:44:53] 
+[05:44:53] Server Plugins
+[05:44:53] --------------
+[05:44:53]  Loading plugin: crashdetect.dll
+[05:44:53]   CrashDetect plugin 4.21
+[05:44:53]   Loaded.
+[05:44:53]  Loading plugin: ucrp.dll
+[05:44:53]   Loaded.
+[05:44:53]  Loaded 2 plugins.
+
+[05:44:53] 
+[05:44:53] Filterscripts
+[05:44:53] ---------------
+[05:44:53]   Loaded 0 filterscripts.
+
+[05:44:53] ----------------------------------
+[05:44:53]     United Capital: Roleplay
+[05:44:53] ----------------------------------
+[05:44:53] Setting server password to: "loadserverwaitplease"
+[05:44:53] Number of vehicle models: 0
+[05:45:03] Server password has been removed.
+[05:45:03] Server Open!
+[05:45:35] [connection] incoming connection: 127.0.0.1:64505 id: 0
+[05:45:36] [join] Printf has joined the server (0:127.0.0.1)
+[05:45:44] 0: 2
+[05:45:44] 1: 8
+[05:45:44] 2: 52
+[05:45:45] 3: 1
+[05:45:45] 4: 0
+[05:45:45] 5: 0
+[05:45:45] 6: 0
+[05:45:45] 7: 0
+[05:45:45] 8: 0
+[05:45:45] 9: 0
+[05:45:45] 10: 0
+[05:45:45] 11: 0
+[05:45:45] Samsung (Negro)
+[05:45:59] UPDATE Characters SET PositionX = '-2032.1337', PositionY = '443.16898', PositionZ = '139.74216', PositionR = '107.77993', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0', HandRight = '52', HandRightAmount = '1', HandLeft = '0', HandLeftAmount = '0' WHERE ID = '8'
+[05:45:59] Error en la consulta: database is locked
+[05:45:59] Error en la consulta: database is locked
+[05:45:59] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[06:10:59] 
+[06:10:59] Server Plugins
+[06:10:59] --------------
+[06:10:59]  Loading plugin: crashdetect.dll
+[06:10:59]   CrashDetect plugin 4.21
+[06:10:59]   Loaded.
+[06:10:59]  Loading plugin: ucrp.dll
+[06:10:59]   Loaded.
+[06:10:59]  Loaded 2 plugins.
+
+[06:10:59] 
+[06:10:59] Filterscripts
+[06:10:59] ---------------
+[06:10:59]   Loaded 0 filterscripts.
+
+[06:10:59] ----------------------------------
+[06:10:59]     United Capital: Roleplay
+[06:10:59] ----------------------------------
+[06:10:59] Setting server password to: "loadserverwaitplease"
+[06:10:59] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:33:25] 
+[17:33:25] Server Plugins
+[17:33:25] --------------
+[17:33:25]  Loading plugin: crashdetect.dll
+[17:33:25]   CrashDetect plugin 4.21
+[17:33:25]   Loaded.
+[17:33:25]  Loading plugin: ucrp.dll
+[17:33:25]   Loaded.
+[17:33:25]  Loaded 2 plugins.
+
+[17:33:25] 
+[17:33:25] Filterscripts
+[17:33:25] ---------------
+[17:33:25]   Loaded 0 filterscripts.
+
+[17:33:25] ----------------------------------
+[17:33:25]     United Capital: Roleplay
+[17:33:25] ----------------------------------
+[17:33:25] Setting server password to: "loadserverwaitplease"
+[17:33:25] Number of vehicle models: 0
+[17:33:35] Server password has been removed.
+[17:33:35] Server Open!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:34:28] 
+[17:34:28] Server Plugins
+[17:34:28] --------------
+[17:34:28]  Loading plugin: crashdetect.dll
+[17:34:28]   CrashDetect plugin 4.21
+[17:34:28]   Loaded.
+[17:34:28]  Loading plugin: ucrp.dll
+[17:34:28]   Loaded.
+[17:34:28]  Loaded 2 plugins.
+
+[17:34:28] 
+[17:34:28] Filterscripts
+[17:34:28] ---------------
+[17:34:28]   Loaded 0 filterscripts.
+
+[17:34:28] ----------------------------------
+[17:34:28]     United Capital: Roleplay
+[17:34:28] ----------------------------------
+[17:34:28] Setting server password to: "loadserverwaitplease"
+[17:34:28] Number of vehicle models: 0
+[17:34:38] Server password has been removed.
+[17:34:38] Server Open!
+[17:35:02] [connection] incoming connection: 127.0.0.1:61116 id: 0
+[17:35:02] [join] Printf has joined the server (0:127.0.0.1)
+[17:35:12] 0: 2
+[17:35:12] 1: 8
+[17:35:12] 2: 52
+[17:35:12] 3: 1
+[17:35:12] 4: 0
+[17:35:12] 5: 0
+[17:35:12] 6: 0
+[17:35:12] 7: 0
+[17:35:12] 8: 0
+[17:35:12] 9: 0
+[17:35:12] 10: 0
+[17:35:12] 11: 0
+[17:35:12] Samsung (Negro)
+[17:35:35] UPDATE Characters SET PositionX = '-2020.4354', PositionY = '438.94803', PositionZ = '139.74216', PositionR = '209.90414', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0', HandRight = '0', HandRightAmount = '0', HandLeft = '0', HandLeftAmount = '0' WHERE ID = '8'
+[17:35:35] Error en la consulta: database is locked
+[17:35:35] Error en la consulta: database is locked
+[17:35:35] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:36:57] 
+[17:36:57] Server Plugins
+[17:36:57] --------------
+[17:36:57]  Loading plugin: crashdetect.dll
+[17:36:57]   CrashDetect plugin 4.21
+[17:36:57]   Loaded.
+[17:36:57]  Loading plugin: ucrp.dll
+[17:36:57]   Loaded.
+[17:36:57]  Loaded 2 plugins.
+
+[17:36:57] 
+[17:36:57] Filterscripts
+[17:36:57] ---------------
+[17:36:57]   Loaded 0 filterscripts.
+
+[17:36:57] ----------------------------------
+[17:36:57]     United Capital: Roleplay
+[17:36:57] ----------------------------------
+[17:36:57] Setting server password to: "loadserverwaitplease"
+[17:36:57] Number of vehicle models: 0
+[17:37:07] Server password has been removed.
+[17:37:07] Server Open!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:38:27] 
+[17:38:27] Server Plugins
+[17:38:27] --------------
+[17:38:27]  Loading plugin: crashdetect.dll
+[17:38:27]   CrashDetect plugin 4.21
+[17:38:27]   Loaded.
+[17:38:27]  Loading plugin: ucrp.dll
+[17:38:27]   Loaded.
+[17:38:27]  Loaded 2 plugins.
+
+[17:38:27] 
+[17:38:27] Filterscripts
+[17:38:27] ---------------
+[17:38:27]   Loaded 0 filterscripts.
+
+[17:38:27] ----------------------------------
+[17:38:27]     United Capital: Roleplay
+[17:38:27] ----------------------------------
+[17:38:27] Setting server password to: "loadserverwaitplease"
+[17:38:27] Number of vehicle models: 0
+[17:38:37] Server password has been removed.
+[17:38:37] Server Open!
+[17:38:49] [connection] incoming connection: 127.0.0.1:61254 id: 0
+[17:38:50] [join] Printf has joined the server (0:127.0.0.1)
+[17:39:05] 0: 2
+[17:39:05] 1: 8
+[17:39:05] 2: 52
+[17:39:05] 3: 1
+[17:39:05] 4: 0
+[17:39:05] 5: 0
+[17:39:05] 6: 0
+[17:39:05] 7: 0
+[17:39:05] 8: 0
+[17:39:05] 9: 0
+[17:39:05] 10: 0
+[17:39:05] 11: 0
+[17:39:05] Samsung (Negro)
+[17:39:31] UPDATE Characters SET PositionX = '-2019.2112', PositionY = '435.27585', PositionZ = '139.74216', PositionR = '195.80402', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0', HandRight = '0', HandRightAmount = '0', HandLeft = '0', HandLeftAmount = '0' WHERE ID = '8'
+[17:39:31] Error en la consulta: database is locked
+[17:39:31] Error en la consulta: database is locked
+[17:39:31] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:31:18] 
+[23:31:18] Server Plugins
+[23:31:18] --------------
+[23:31:18]  Loading plugin: crashdetect.dll
+[23:31:19]   CrashDetect plugin 4.21
+[23:31:19]   Loaded.
+[23:31:19]  Loading plugin: ucrp.dll
+[23:31:20]   Loaded.
+[23:31:20]  Loaded 2 plugins.
+
+[23:31:20] 
+[23:31:20] Filterscripts
+[23:31:20] ---------------
+[23:31:20]   Loaded 0 filterscripts.
+
+[23:31:20] ----------------------------------
+[23:31:20]     United Capital: Roleplay
+[23:31:20] ----------------------------------
+[23:31:20] Setting server password to: "loadserverwaitplease"
+[23:31:20] Number of vehicle models: 0
+[23:31:30] Server password has been removed.
+[23:31:30] Server Open!
+[23:33:31] [connection] incoming connection: 127.0.0.1:62040 id: 0
+[23:33:31] [join] Printf has joined the server (0:127.0.0.1)
+[23:41:46] 0: 2
+[23:41:46] 1: 8
+[23:41:46] 2: 52
+[23:41:46] 3: 1
+[23:41:46] 4: 0
+[23:41:46] 5: 0
+[23:41:46] 6: 0
+[23:41:46] 7: 0
+[23:41:46] 8: 0
+[23:41:46] 9: 0
+[23:41:46] 10: 0
+[23:41:46] 11: 0
+[23:41:46] Samsung (Negro)
+[23:42:27] UPDATE Characters SET PositionX = '-2048.8057', PositionY = '475.64777', PositionZ = '35.172295', PositionR = '309.8608', Interior = '0', VirtualWorld = '0', Health = '100', Kevlar = '0', Skin = '289', Crack = '0', HandRight = '0', HandRightAmount = '0', HandLeft = '0', HandLeftAmount = '0' WHERE ID = '8'
+[23:42:27] Error en la consulta: database is locked
+[23:42:27] Error en la consulta: database is locked
+[23:42:27] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:47:24] 
+[23:47:24] Server Plugins
+[23:47:24] --------------
+[23:47:24]  Loading plugin: crashdetect.dll
+[23:47:24]   CrashDetect plugin 4.21
+[23:47:24]   Loaded.
+[23:47:24]  Loading plugin: ucrp.dll
+[23:47:24]   Loaded.
+[23:47:24]  Loaded 2 plugins.
+
+[23:47:24] 
+[23:47:24] Filterscripts
+[23:47:24] ---------------
+[23:47:24]   Loaded 0 filterscripts.
+
+[23:47:24] ----------------------------------
+[23:47:24]     United Capital: Roleplay
+[23:47:24] ----------------------------------
+[23:47:24] Setting server password to: "loadserverwaitplease"
+[23:47:24] Number of vehicle models: 0
+[23:47:34] Server password has been removed.
+[23:47:34] Server Open!
+[23:48:12] [connection] incoming connection: 127.0.0.1:55037 id: 0
+[23:48:12] [join] Printf has joined the server (0:127.0.0.1)
+[23:48:20] 0: 2
+[23:48:20] 1: 8
+[23:48:20] 2: 52
+[23:48:20] 3: 1
+[23:48:20] 4: 0
+[23:48:20] 5: 0
+[23:48:20] 6: 0
+[23:48:20] 7: 0
+[23:48:20] 8: 0
+[23:48:20] 9: 0
+[23:48:20] 10: 0
+[23:48:20] 11: 0
+[23:48:20] Samsung (Negro)
+[23:48:25] no hay nada en esta mano (D)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:51:25] 
+[23:51:25] Server Plugins
+[23:51:25] --------------
+[23:51:25]  Loading plugin: crashdetect.dll
+[23:51:25]   CrashDetect plugin 4.21
+[23:51:25]   Loaded.
+[23:51:25]  Loading plugin: ucrp.dll
+[23:51:25]   Loaded.
+[23:51:25]  Loaded 2 plugins.
+
+[23:51:25] 
+[23:51:25] Filterscripts
+[23:51:25] ---------------
+[23:51:25]   Loaded 0 filterscripts.
+
+[23:51:25] ----------------------------------
+[23:51:25]     United Capital: Roleplay
+[23:51:25] ----------------------------------
+[23:51:25] Setting server password to: "loadserverwaitplease"
+[23:51:25] Number of vehicle models: 0
+[23:51:35] Server password has been removed.
+[23:51:35] Server Open!
+[23:51:37] [connection] incoming connection: 127.0.0.1:49704 id: 0
+[23:51:37] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[23:51:45] 0: 2
+[23:51:45] 1: 8
+[23:51:45] 2: 52
+[23:51:45] 3: 1
+[23:51:45] 4: 0
+[23:51:45] 5: 0
+[23:51:45] 6: 0
+[23:51:45] 7: 0
+[23:51:45] 8: 0
+[23:51:45] 9: 0
+[23:51:45] 10: 0
+[23:51:45] 11: 0
+[23:51:45] Samsung (Negro)
+[23:51:48] no hay nada en esta mano (D)
+[23:51:48] colocando objeto mano derecha
+[23:51:48] colocando objeto mano izquierda
+[23:52:14] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:52:41] 
+[23:52:41] Server Plugins
+[23:52:41] --------------
+[23:52:41]  Loading plugin: crashdetect.dll
+[23:52:41]   CrashDetect plugin 4.21
+[23:52:41]   Loaded.
+[23:52:41]  Loading plugin: ucrp.dll
+[23:52:41]   Loaded.
+[23:52:41]  Loaded 2 plugins.
+
+[23:52:41] 
+[23:52:41] Filterscripts
+[23:52:41] ---------------
+[23:52:41]   Loaded 0 filterscripts.
+
+[23:52:41] ----------------------------------
+[23:52:41]     United Capital: Roleplay
+[23:52:41] ----------------------------------
+[23:52:41] Setting server password to: "loadserverwaitplease"
+[23:52:41] Number of vehicle models: 0
+[23:52:51] Server password has been removed.
+[23:52:51] Server Open!
+[23:53:01] [connection] incoming connection: 127.0.0.1:55075 id: 0
+[23:53:01] [join] Printf has joined the server (0:127.0.0.1)
+[23:53:08] 0: 2
+[23:53:08] 1: 8
+[23:53:08] 2: 52
+[23:53:08] 3: 1
+[23:53:08] 4: 0
+[23:53:08] 5: 0
+[23:53:08] 6: 0
+[23:53:08] 7: 0
+[23:53:08] 8: 0
+[23:53:08] 9: 0
+[23:53:08] 10: 0
+[23:53:08] 11: 0
+[23:53:08] Samsung (Negro)
+[23:53:08] colocando objeto mano derecha
+[23:53:11] colocando objeto mano derecha
+[23:53:11] no hay nada en esta mano (I)
+[23:53:11] colocando objeto mano izquierda
+[23:53:26] colocando objeto mano derecha
+[23:53:43] no hay nada en esta mano (D)
+[23:53:43] colocando objeto mano derecha
+[23:53:47] no hay nada en esta mano (D)
+[23:53:47] colocando objeto mano derecha
+[23:53:51] colocando objeto mano derecha
+[23:53:51] no hay nada en esta mano (I)
+[23:53:51] colocando objeto mano izquierda
+[23:53:59] colocando objeto mano derecha
+[23:54:05] no hay nada en esta mano (D)
+[23:54:05] colocando objeto mano derecha
+[23:54:12] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:02:05] 
+[00:02:05] Server Plugins
+[00:02:05] --------------
+[00:02:05]  Loading plugin: crashdetect.dll
+[00:02:05]   CrashDetect plugin 4.21
+[00:02:05]   Loaded.
+[00:02:05]  Loading plugin: ucrp.dll
+[00:02:06]   Loaded.
+[00:02:06]  Loaded 2 plugins.
+
+[00:02:06] 
+[00:02:06] Filterscripts
+[00:02:06] ---------------
+[00:02:06]   Loaded 0 filterscripts.
+
+[00:02:06] ----------------------------------
+[00:02:06]     United Capital: Roleplay
+[00:02:06] ----------------------------------
+[00:02:06] Setting server password to: "loadserverwaitplease"
+[00:02:06] Number of vehicle models: 0
+[00:02:16] Server password has been removed.
+[00:02:16] Server Open!
+[00:02:27] [connection] incoming connection: 127.0.0.1:64055 id: 0
+[00:02:27] [join] Printf has joined the server (0:127.0.0.1)
+[00:02:36] 0: 2
+[00:02:36] 1: 8
+[00:02:36] 2: 52
+[00:02:36] 3: 1
+[00:02:36] 4: 0
+[00:02:36] 5: 0
+[00:02:36] 6: 0
+[00:02:36] 7: 0
+[00:02:36] 8: 0
+[00:02:36] 9: 0
+[00:02:36] 10: 0
+[00:02:36] 11: 0
+[00:02:36] Samsung (Negro)
+[00:04:28] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:19:49] 
+[00:19:49] Server Plugins
+[00:19:49] --------------
+[00:19:49]  Loading plugin: crashdetect.dll
+[00:19:49]   CrashDetect plugin 4.21
+[00:19:49]   Loaded.
+[00:19:49]  Loading plugin: ucrp.dll
+[00:19:49]   Loaded.
+[00:19:49]  Loaded 2 plugins.
+
+[00:19:49] 
+[00:19:49] Filterscripts
+[00:19:49] ---------------
+[00:19:49]   Loaded 0 filterscripts.
+
+[00:19:49] ----------------------------------
+[00:19:49]     United Capital: Roleplay
+[00:19:49] ----------------------------------
+[00:19:49] Setting server password to: "loadserverwaitplease"
+[00:19:49] Number of vehicle models: 0
+[00:19:59] Server password has been removed.
+[00:19:59] Server Open!
+[00:20:45] [connection] incoming connection: 127.0.0.1:61040 id: 0
+[00:20:45] [join] Printf has joined the server (0:127.0.0.1)
+[00:20:53] 0: 2
+[00:20:53] 1: 8
+[00:20:53] 2: 52
+[00:20:53] 3: 1
+[00:20:53] 4: 0
+[00:20:53] 5: 0
+[00:20:53] 6: 0
+[00:20:53] 7: 0
+[00:20:53] 8: 0
+[00:20:53] 9: 0
+[00:20:53] 10: 0
+[00:20:53] 11: 0
+[00:20:53] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:30:32] 
+[00:30:32] Server Plugins
+[00:30:32] --------------
+[00:30:32]  Loading plugin: crashdetect.dll
+[00:30:32]   CrashDetect plugin 4.21
+[00:30:32]   Loaded.
+[00:30:32]  Loading plugin: ucrp.dll
+[00:30:32]   Loaded.
+[00:30:32]  Loaded 2 plugins.
+
+[00:30:32] 
+[00:30:32] Filterscripts
+[00:30:32] ---------------
+[00:30:32]   Loaded 0 filterscripts.
+
+[00:30:32] ----------------------------------
+[00:30:32]     United Capital: Roleplay
+[00:30:32] ----------------------------------
+[00:30:32] Setting server password to: "loadserverwaitplease"
+[00:30:32] Number of vehicle models: 0
+[00:30:42] Server password has been removed.
+[00:30:42] Server Open!
+[00:31:01] [connection] incoming connection: 127.0.0.1:64792 id: 0
+[00:31:01] [join] Printf has joined the server (0:127.0.0.1)
+[00:31:11] 0: 2
+[00:31:11] 1: 8
+[00:31:11] 2: 52
+[00:31:11] 3: 1
+[00:31:11] 4: 0
+[00:31:11] 5: 0
+[00:31:11] 6: 0
+[00:31:11] 7: 0
+[00:31:11] 8: 0
+[00:31:11] 9: 0
+[00:31:11] 10: 0
+[00:31:11] 11: 0
+[00:31:11] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:40:22] 
+[00:40:22] Server Plugins
+[00:40:22] --------------
+[00:40:22]  Loading plugin: crashdetect.dll
+[00:40:22]   CrashDetect plugin 4.21
+[00:40:22]   Loaded.
+[00:40:22]  Loading plugin: ucrp.dll
+[00:40:22]   Loaded.
+[00:40:22]  Loaded 2 plugins.
+
+[00:40:22] 
+[00:40:22] Filterscripts
+[00:40:22] ---------------
+[00:40:22]   Loaded 0 filterscripts.
+
+[00:40:22] ----------------------------------
+[00:40:22]     United Capital: Roleplay
+[00:40:22] ----------------------------------
+[00:40:22] Setting server password to: "loadserverwaitplease"
+[00:40:22] Number of vehicle models: 0
+[00:40:32] Server password has been removed.
+[00:40:32] Server Open!
+[00:40:48] [connection] incoming connection: 127.0.0.1:51900 id: 0
+[00:40:48] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[00:40:54] 0: 2
+[00:40:54] 1: 8
+[00:40:54] 2: 52
+[00:40:54] 3: 1
+[00:40:54] 4: 0
+[00:40:54] 5: 0
+[00:40:54] 6: 0
+[00:40:54] 7: 0
+[00:40:54] 8: 0
+[00:40:54] 9: 0
+[00:40:54] 10: 0
+[00:40:54] 11: 0
+[00:40:54] Samsung (Negro)
+[00:41:11] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:42:32] 
+[00:42:32] Server Plugins
+[00:42:32] --------------
+[00:42:32]  Loading plugin: crashdetect.dll
+[00:42:32]   CrashDetect plugin 4.21
+[00:42:32]   Loaded.
+[00:42:32]  Loading plugin: ucrp.dll
+[00:42:32]   Loaded.
+[00:42:32]  Loaded 2 plugins.
+
+[00:42:32] 
+[00:42:32] Filterscripts
+[00:42:32] ---------------
+[00:42:32]   Loaded 0 filterscripts.
+
+[00:42:32] ----------------------------------
+[00:42:32]     United Capital: Roleplay
+[00:42:32] ----------------------------------
+[00:42:32] Setting server password to: "loadserverwaitplease"
+[00:42:32] Number of vehicle models: 0
+[00:42:42] Server password has been removed.
+[00:42:42] Server Open!
+[00:44:18] [connection] incoming connection: 127.0.0.1:56059 id: 0
+[00:44:18] [join] Printf has joined the server (0:127.0.0.1)
+[00:44:28] 0: 2
+[00:44:28] 1: 8
+[00:44:28] 2: 52
+[00:44:28] 3: 1
+[00:44:28] 4: 0
+[00:44:28] 5: 0
+[00:44:28] 6: 0
+[00:44:28] 7: 0
+[00:44:28] 8: 0
+[00:44:28] 9: 0
+[00:44:28] 10: 0
+[00:44:28] 11: 0
+[00:44:28] Samsung (Negro)
+[00:44:41] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:45:30] 
+[00:45:30] Server Plugins
+[00:45:30] --------------
+[00:45:30]  Loading plugin: crashdetect.dll
+[00:45:30]   CrashDetect plugin 4.21
+[00:45:30]   Loaded.
+[00:45:30]  Loading plugin: ucrp.dll
+[00:45:30]   Loaded.
+[00:45:30]  Loaded 2 plugins.
+
+[00:45:30] 
+[00:45:30] Filterscripts
+[00:45:30] ---------------
+[00:45:30]   Loaded 0 filterscripts.
+
+[00:45:30] ----------------------------------
+[00:45:30]     United Capital: Roleplay
+[00:45:30] ----------------------------------
+[00:45:30] Setting server password to: "loadserverwaitplease"
+[00:45:30] Number of vehicle models: 0
+[00:45:40] Server password has been removed.
+[00:45:40] Server Open!
+[00:46:02] [connection] incoming connection: 127.0.0.1:64058 id: 0
+[00:46:02] [join] Printf has joined the server (0:127.0.0.1)
+[00:46:20] 0: 2
+[00:46:20] 1: 8
+[00:46:20] 2: 52
+[00:46:20] 3: 1
+[00:46:20] 4: 0
+[00:46:20] 5: 0
+[00:46:20] 6: 0
+[00:46:20] 7: 0
+[00:46:20] 8: 0
+[00:46:20] 9: 0
+[00:46:20] 10: 0
+[00:46:20] 11: 0
+[00:46:20] Samsung (Negro)
+[00:51:58] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:49:33] 
+[20:49:33] Server Plugins
+[20:49:33] --------------
+[20:49:33]  Loading plugin: crashdetect.dll
+[20:49:34]   CrashDetect plugin 4.21
+[20:49:34]   Loaded.
+[20:49:34]  Loading plugin: ucrp.dll
+[20:49:34]   Loaded.
+[20:49:34]  Loaded 2 plugins.
+
+[20:49:34] 
+[20:49:34] Filterscripts
+[20:49:34] ---------------
+[20:49:34]   Loaded 0 filterscripts.
+
+[20:49:34] ----------------------------------
+[20:49:34]     United Capital: Roleplay
+[20:49:34] ----------------------------------
+[20:49:34] Setting server password to: "loadserverwaitplease"
+[20:49:34] Number of vehicle models: 0
+[20:49:44] Server password has been removed.
+[20:49:44] Server Open!
+[20:50:39] [connection] incoming connection: 127.0.0.1:52622 id: 0
+[20:50:39] [join] Printf has joined the server (0:127.0.0.1)
+[20:51:04] 0: 2
+[20:51:04] 1: 8
+[20:51:04] 2: 52
+[20:51:04] 3: 1
+[20:51:04] 4: 0
+[20:51:04] 5: 0
+[20:51:04] 6: 0
+[20:51:04] 7: 0
+[20:51:04] 8: 0
+[20:51:04] 9: 0
+[20:51:04] 10: 0
+[20:51:04] 11: 0
+[20:51:04] Samsung (Negro)
+[20:51:29] 'C:\Users\rippr\Projects\ucrp\include\streamer.cpp' / 'Update' - Function not discovered !
+[20:51:44] 'C:\Users\rippr\Projects\ucrp\include\streamer.cpp' / 'Update' - Function not discovered !
+[20:54:21] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:58:34] 
+[20:58:34] Server Plugins
+[20:58:34] --------------
+[20:58:34]  Loading plugin: crashdetect.dll
+[20:58:34]   CrashDetect plugin 4.21
+[20:58:34]   Loaded.
+[20:58:34]  Loading plugin: ucrp.dll
+[20:58:34]   Loaded.
+[20:58:34]  Loaded 2 plugins.
+
+[20:58:34] 
+[20:58:34] Filterscripts
+[20:58:34] ---------------
+[20:58:34]   Loaded 0 filterscripts.
+
+[20:58:34] ----------------------------------
+[20:58:34]     United Capital: Roleplay
+[20:58:34] ----------------------------------
+[20:58:34] Setting server password to: "loadserverwaitplease"
+[20:58:34] Number of vehicle models: 0
+[20:58:44] Server password has been removed.
+[20:58:44] Server Open!
+[20:58:57] [connection] incoming connection: 127.0.0.1:58079 id: 0
+[20:58:57] [join] Printf has joined the server (0:127.0.0.1)
+[20:59:12] 0: 2
+[20:59:12] 1: 8
+[20:59:12] 2: 52
+[20:59:12] 3: 1
+[20:59:12] 4: 0
+[20:59:12] 5: 0
+[20:59:12] 6: 0
+[20:59:12] 7: 0
+[20:59:12] 8: 0
+[20:59:12] 9: 0
+[20:59:12] 10: 0
+[20:59:12] 11: 0
+[20:59:12] Samsung (Negro)
+[21:01:26] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:00:16] 
+[03:00:16] Server Plugins
+[03:00:16] --------------
+[03:00:16]  Loading plugin: crashdetect.dll
+[03:00:17]   CrashDetect plugin 4.21
+[03:00:17]   Loaded.
+[03:00:17]  Loading plugin: ucrp.dll
+[03:00:17]   Loaded.
+[03:00:17]  Loaded 2 plugins.
+
+[03:00:17] 
+[03:00:17] Filterscripts
+[03:00:17] ---------------
+[03:00:17]   Loaded 0 filterscripts.
+
+[03:00:17] ----------------------------------
+[03:00:17]     United Capital: Roleplay
+[03:00:17] ----------------------------------
+[03:00:17] Setting server password to: "loadserverwaitplease"
+[03:00:17] Number of vehicle models: 0
+[03:00:27] Server password has been removed.
+[03:00:27] Server Open!
+[03:01:01] [connection] incoming connection: 127.0.0.1:52322 id: 0
+[03:01:01] [join] Printf has joined the server (0:127.0.0.1)
+[03:01:10] 0: 2
+[03:01:10] 1: 8
+[03:01:10] 2: 52
+[03:01:10] 3: 1
+[03:01:10] 4: 0
+[03:01:10] 5: 0
+[03:01:10] 6: 0
+[03:01:10] 7: 0
+[03:01:10] 8: 0
+[03:01:10] 9: 0
+[03:01:10] 10: 0
+[03:01:10] 11: 0
+[03:01:10] Samsung (Negro)
+[03:01:39] 25: Nudilleras
+[03:01:40] 25: Nudilleras
+[03:01:45] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:02:33] 
+[03:02:33] Server Plugins
+[03:02:33] --------------
+[03:02:33]  Loading plugin: crashdetect.dll
+[03:02:33]   CrashDetect plugin 4.21
+[03:02:33]   Loaded.
+[03:02:33]  Loading plugin: ucrp.dll
+[03:02:33]   Loaded.
+[03:02:33]  Loaded 2 plugins.
+
+[03:02:33] 
+[03:02:33] Filterscripts
+[03:02:33] ---------------
+[03:02:33]   Loaded 0 filterscripts.
+
+[03:02:33] ----------------------------------
+[03:02:33]     United Capital: Roleplay
+[03:02:33] ----------------------------------
+[03:02:33] Setting server password to: "loadserverwaitplease"
+[03:02:33] Number of vehicle models: 0
+[03:02:43] Server password has been removed.
+[03:02:43] Server Open!
+[03:03:24] [connection] incoming connection: 127.0.0.1:53236 id: 0
+[03:03:24] [join] Printf has joined the server (0:127.0.0.1)
+[03:03:52] 0: 2
+[03:03:52] 1: 8
+[03:03:52] 2: 52
+[03:03:52] 3: 1
+[03:03:52] 4: 0
+[03:03:52] 5: 0
+[03:03:52] 6: 0
+[03:03:52] 7: 0
+[03:03:52] 8: 0
+[03:03:52] 9: 0
+[03:03:52] 10: 0
+[03:03:52] 11: 0
+[03:03:52] Samsung (Negro)
+[03:04:08] 25: Nudilleras
+[03:04:10] 25: Nudilleras
+[03:04:14] 25: Nudilleras
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:08:43] 
+[03:08:43] Server Plugins
+[03:08:43] --------------
+[03:08:43]  Loading plugin: crashdetect.dll
+[03:08:43]   CrashDetect plugin 4.21
+[03:08:43]   Loaded.
+[03:08:43]  Loading plugin: ucrp.dll
+[03:08:43]   Loaded.
+[03:08:43]  Loaded 2 plugins.
+
+[03:08:43] 
+[03:08:43] Filterscripts
+[03:08:43] ---------------
+[03:08:43]   Loaded 0 filterscripts.
+
+[03:08:43] ----------------------------------
+[03:08:43]     United Capital: Roleplay
+[03:08:43] ----------------------------------
+[03:08:43] Setting server password to: "loadserverwaitplease"
+[03:08:43] Number of vehicle models: 0
+[03:08:49] [connection] incoming connection: 127.0.0.1:56323 id: 0
+[03:08:53] Server password has been removed.
+[03:08:53] Server Open!
+[03:08:59] [connection] incoming connection: 127.0.0.1:62195 id: 0
+[03:08:59] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:09:07] 0: 2
+[03:09:07] 1: 8
+[03:09:07] 2: 52
+[03:09:07] 3: 1
+[03:09:07] 4: 0
+[03:09:07] 5: 0
+[03:09:07] 6: 0
+[03:09:07] 7: 0
+[03:09:07] 8: 0
+[03:09:07] 9: 0
+[03:09:07] 10: 0
+[03:09:07] 11: 0
+[03:09:07] Samsung (Negro)
+[03:09:17] 25: AR-15 5,56mm
+[03:09:17] Se encontro el objeto AR-15 5,56mm
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:10:14] 
+[03:10:14] Server Plugins
+[03:10:14] --------------
+[03:10:14]  Loading plugin: crashdetect.dll
+[03:10:14]   CrashDetect plugin 4.21
+[03:10:14]   Loaded.
+[03:10:14]  Loading plugin: ucrp.dll
+[03:10:15]   Loaded.
+[03:10:15]  Loaded 2 plugins.
+
+[03:10:15] 
+[03:10:15] Filterscripts
+[03:10:15] ---------------
+[03:10:15]   Loaded 0 filterscripts.
+
+[03:10:15] ----------------------------------
+[03:10:15]     United Capital: Roleplay
+[03:10:15] ----------------------------------
+[03:10:15] Setting server password to: "loadserverwaitplease"
+[03:10:15] Number of vehicle models: 0
+[03:10:25] Server password has been removed.
+[03:10:25] Server Open!
+[03:10:47] [connection] incoming connection: 127.0.0.1:57653 id: 0
+[03:10:47] [join] Printf has joined the server (0:127.0.0.1)
+[03:10:55] 0: 2
+[03:10:55] 1: 8
+[03:10:55] 2: 52
+[03:10:55] 3: 1
+[03:10:55] 4: 0
+[03:10:55] 5: 0
+[03:10:55] 6: 0
+[03:10:55] 7: 0
+[03:10:55] 8: 0
+[03:10:55] 9: 0
+[03:10:55] 10: 0
+[03:10:55] 11: 0
+[03:10:55] Samsung (Negro)
+[03:11:10] 25: AR-15 5,56mm
+[03:11:10] Se encontro el objeto AR-15 5,56mm
+[03:11:45] -572662307: Vacio
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:22:32] 
+[03:22:32] Server Plugins
+[03:22:32] --------------
+[03:22:32]  Loading plugin: crashdetect.dll
+[03:22:32]   CrashDetect plugin 4.21
+[03:22:32]   Loaded.
+[03:22:32]  Loading plugin: ucrp.dll
+[03:22:32]   Loaded.
+[03:22:32]  Loaded 2 plugins.
+
+[03:22:32] 
+[03:22:32] Filterscripts
+[03:22:32] ---------------
+[03:22:32]   Loaded 0 filterscripts.
+
+[03:22:32] ----------------------------------
+[03:22:32]     United Capital: Roleplay
+[03:22:32] ----------------------------------
+[03:22:32] Setting server password to: "loadserverwaitplease"
+[03:22:32] Number of vehicle models: 0
+[03:22:42] Server password has been removed.
+[03:22:42] Server Open!
+[03:26:36] [connection] incoming connection: 127.0.0.1:61237 id: 0
+[03:26:36] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:26:44] 0: 2
+[03:26:44] 1: 8
+[03:26:44] 2: 52
+[03:26:44] 3: 1
+[03:26:44] 4: 0
+[03:26:44] 5: 0
+[03:26:44] 6: 0
+[03:26:44] 7: 0
+[03:26:44] 8: 0
+[03:26:44] 9: 0
+[03:26:44] 10: 0
+[03:26:44] 11: 0
+[03:26:44] Samsung (Negro)
+[03:28:34] 25: AR-15 5,56mm
+[03:28:34] Se encontro el objeto AR-15 5,56mm
+[03:29:25] 25: AR-15 5,56mm
+[03:29:25] Se encontro el objeto AR-15 5,56mm
+[03:29:25] 50: Samsung (Naranja)
+[03:29:53] 25: AR-15 5,56mm
+[03:29:53] Se encontro el objeto AR-15 5,56mm
+[03:29:53] 50: Samsung (Naranja)
+[03:29:53] 25: AR-15 5,56mm
+[03:29:53] 25: AR-15 5,56mm
+[03:30:10] 25: AR-15 5,56mm
+[03:30:10] Se encontro el objeto AR-15 5,56mm
+[03:30:10] 50: Samsung (Naranja)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:33:24] 
+[03:33:24] Server Plugins
+[03:33:24] --------------
+[03:33:24]  Loading plugin: crashdetect.dll
+[03:33:24]   CrashDetect plugin 4.21
+[03:33:24]   Loaded.
+[03:33:24]  Loading plugin: ucrp.dll
+[03:33:25]   Loaded.
+[03:33:25]  Loaded 2 plugins.
+
+[03:33:25] 
+[03:33:25] Filterscripts
+[03:33:25] ---------------
+[03:33:25]   Loaded 0 filterscripts.
+
+[03:33:25] ----------------------------------
+[03:33:25]     United Capital: Roleplay
+[03:33:25] ----------------------------------
+[03:33:25] Setting server password to: "loadserverwaitplease"
+[03:33:25] Number of vehicle models: 0
+[03:33:35] Server password has been removed.
+[03:33:35] Server Open!
+[03:34:38] [connection] incoming connection: 127.0.0.1:55523 id: 0
+[03:34:39] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:34:46] 0: 2
+[03:34:46] 1: 8
+[03:34:46] 2: 52
+[03:34:46] 3: 1
+[03:34:46] 4: 0
+[03:34:46] 5: 0
+[03:34:46] 6: 0
+[03:34:46] 7: 0
+[03:34:46] 8: 0
+[03:34:46] 9: 0
+[03:34:46] 10: 0
+[03:34:46] 11: 0
+[03:34:46] Samsung (Negro)
+[03:35:03] 1: AR-15 5,56mm
+[03:35:03] Se encontro el objeto AR-15 5,56mm
+[03:35:03] 2: Samsung (Naranja)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:42:06] 
+[03:42:06] Server Plugins
+[03:42:06] --------------
+[03:42:06]  Loading plugin: crashdetect.dll
+[03:42:06]   CrashDetect plugin 4.21
+[03:42:06]   Loaded.
+[03:42:06]  Loading plugin: ucrp.dll
+[03:42:06]   Loaded.
+[03:42:06]  Loaded 2 plugins.
+
+[03:42:06] 
+[03:42:06] Filterscripts
+[03:42:06] ---------------
+[03:42:06]   Loaded 0 filterscripts.
+
+[03:42:06] ----------------------------------
+[03:42:06]     United Capital: Roleplay
+[03:42:06] ----------------------------------
+[03:42:06] Setting server password to: "loadserverwaitplease"
+[03:42:06] Number of vehicle models: 0
+[03:42:12] [connection] incoming connection: 127.0.0.1:50338 id: 0
+[03:42:16] Server password has been removed.
+[03:42:16] Server Open!
+[03:43:16] [connection] incoming connection: 127.0.0.1:52974 id: 0
+[03:43:16] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[03:43:23] 0: 2
+[03:43:23] 1: 8
+[03:43:23] 2: 52
+[03:43:23] 3: 1
+[03:43:23] 4: 0
+[03:43:23] 5: 0
+[03:43:23] 6: 0
+[03:43:23] 7: 0
+[03:43:23] 8: 0
+[03:43:23] 9: 0
+[03:43:23] 10: 0
+[03:43:23] 11: 0
+[03:43:23] Samsung (Negro)
+[03:43:47] 1: AR-15 5,56mm
+[03:43:47] 0
+[03:43:47] Se encontro el objeto AR-15 5,56mm
+[03:43:47] 2: Samsung (Naranja)
+[03:43:47] 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:55:20] 
+[03:55:20] Server Plugins
+[03:55:20] --------------
+[03:55:20]  Loading plugin: crashdetect.dll
+[03:55:20]   CrashDetect plugin 4.21
+[03:55:20]   Loaded.
+[03:55:20]  Loading plugin: ucrp.dll
+[03:55:20]   Loaded.
+[03:55:20]  Loaded 2 plugins.
+
+[03:55:20] 
+[03:55:20] Filterscripts
+[03:55:20] ---------------
+[03:55:20]   Loaded 0 filterscripts.
+
+[03:55:20] ----------------------------------
+[03:55:20]     United Capital: Roleplay
+[03:55:20] ----------------------------------
+[03:55:20] Setting server password to: "loadserverwaitplease"
+[03:55:20] Number of vehicle models: 0
+[03:55:30] Server password has been removed.
+[03:55:30] Server Open!
+[03:55:50] [connection] incoming connection: 127.0.0.1:55079 id: 0
+[03:55:50] [join] Printf has joined the server (0:127.0.0.1)
+[03:55:58] 0: 2
+[03:55:58] 1: 8
+[03:55:58] 2: 52
+[03:55:58] 3: 1
+[03:55:58] 4: 0
+[03:55:58] 5: 0
+[03:55:58] 6: 0
+[03:55:58] 7: 0
+[03:55:58] 8: 0
+[03:55:58] 9: 0
+[03:55:58] 10: 0
+[03:55:58] 11: 0
+[03:55:58] Samsung (Negro)
+[03:56:11] 1: AR-15 5,56mm
+[03:56:11] 0
+[03:56:11] Se encontro el objeto AR-15 5,56mm
+[03:56:11] Esta colocando el objeto AR-15 5,56mm
+[03:56:16] 2: AR-15 5,56mm
+[03:56:16] 0
+[03:56:16] Se encontro el objeto AR-15 5,56mm
+[03:56:16] Esta colocando el objeto AR-15 5,56mm
+[03:56:32] 3: AR-15 5,56mm
+[03:56:32] 0
+[03:56:34] 3: AR-15 5,56mm
+[03:56:34] 0
+[03:56:34] 3: AR-15 5,56mm
+[03:56:34] 0
+[03:57:20] 3: AR-15 5,56mm
+[03:57:20] 0
+[03:57:20] Se encontro el objeto AR-15 5,56mm
+[03:57:20] 4: Samsung (Negro)
+[03:57:20] 1
+[03:57:31] 3: AR-15 5,56mm
+[03:57:31] 0
+[03:57:31] Se encontro el objeto AR-15 5,56mm
+[03:57:31] 4: Samsung (Negro)
+[03:57:31] 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:03:56] 
+[04:03:56] Server Plugins
+[04:03:56] --------------
+[04:03:56]  Loading plugin: crashdetect.dll
+[04:03:56]   CrashDetect plugin 4.21
+[04:03:56]   Loaded.
+[04:03:56]  Loading plugin: ucrp.dll
+[04:03:56]   Loaded.
+[04:03:56]  Loaded 2 plugins.
+
+[04:03:56] 
+[04:03:56] Filterscripts
+[04:03:56] ---------------
+[04:03:56]   Loaded 0 filterscripts.
+
+[04:03:56] ----------------------------------
+[04:03:56]     United Capital: Roleplay
+[04:03:56] ----------------------------------
+[04:03:56] Setting server password to: "loadserverwaitplease"
+[04:03:56] Number of vehicle models: 0
+[04:04:06] Server password has been removed.
+[04:04:06] Server Open!
+[04:04:34] [connection] incoming connection: 127.0.0.1:56727 id: 0
+[04:04:34] [join] Printf has joined the server (0:127.0.0.1)
+[04:04:51] 0: 2
+[04:04:51] 1: 8
+[04:04:51] 2: 52
+[04:04:51] 3: 1
+[04:04:51] 4: 0
+[04:04:51] 5: 0
+[04:04:51] 6: 0
+[04:04:51] 7: 0
+[04:04:51] 8: 0
+[04:04:51] 9: 0
+[04:04:51] 10: 0
+[04:04:51] 11: 0
+[04:04:51] Samsung (Negro)
+[04:05:09] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:05:41] 
+[04:05:41] Server Plugins
+[04:05:41] --------------
+[04:05:41]  Loading plugin: crashdetect.dll
+[04:05:41]   CrashDetect plugin 4.21
+[04:05:41]   Loaded.
+[04:05:41]  Loading plugin: ucrp.dll
+[04:05:41]   Loaded.
+[04:05:41]  Loaded 2 plugins.
+
+[04:05:41] 
+[04:05:41] Filterscripts
+[04:05:41] ---------------
+[04:05:41]   Loaded 0 filterscripts.
+
+[04:05:41] ----------------------------------
+[04:05:41]     United Capital: Roleplay
+[04:05:41] ----------------------------------
+[04:05:41] Setting server password to: "loadserverwaitplease"
+[04:05:41] Number of vehicle models: 0
+[04:05:51] Server password has been removed.
+[04:05:51] Server Open!
+[04:06:04] [connection] incoming connection: 127.0.0.1:53535 id: 0
+[04:06:04] [join] Printf has joined the server (0:127.0.0.1)
+[04:06:12] 0: 2
+[04:06:12] 1: 8
+[04:06:12] 2: 52
+[04:06:12] 3: 1
+[04:06:12] 4: 0
+[04:06:12] 5: 0
+[04:06:12] 6: 0
+[04:06:12] 7: 0
+[04:06:12] 8: 0
+[04:06:12] 9: 0
+[04:06:12] 10: 0
+[04:06:12] 11: 0
+[04:06:12] Samsung (Negro)
+[04:06:17] 1: AR-15 5,56mm
+[04:06:17] 0
+[04:06:17] Se encontro el objeto AR-15 5,56mm
+[04:06:17] Esta colocando el objeto AR-15 5,56mm
+[04:06:38] 2: AR-15 5,56mm
+[04:06:38] 0
+[04:07:53] 2: AR-15 5,56mm
+[04:07:53] 0
+[04:07:57] 2: AR-15 5,56mm
+[04:07:57] 0
+[04:07:57] Se encontro el objeto AR-15 5,56mm
+[04:07:57] Esta colocando el objeto AR-15 5,56mm
+[04:08:02] 3: Glock-19 9mm
+[04:08:02] 0
+[04:08:02] Se encontro el objeto Glock-19 9mm
+[04:08:02] Esta colocando el objeto Glock-19 9mm
+[04:08:08] 4: AR-15 5,56mm
+[04:08:08] 0
+[04:08:09] 4: AR-15 5,56mm
+[04:08:09] 0
+[04:08:09] Se encontro el objeto AR-15 5,56mm
+[04:08:09] Esta colocando el objeto AR-15 5,56mm
+[04:15:17] 5: Glock-19 9mm
+[04:15:17] 0
+[04:15:17] Se encontro el objeto Glock-19 9mm
+[04:15:17] Esta colocando el objeto Glock-19 9mm
+[04:15:43] 6: AR-15 5,56mm
+[04:15:43] 0
+[04:15:43] Se encontro el objeto AR-15 5,56mm
+[04:15:43] Esta colocando el objeto AR-15 5,56mm
+[04:16:10] 7: AR-15 5,56mm
+[04:16:10] 0
+[04:16:10] Se encontro el objeto AR-15 5,56mm
+[04:16:10] Esta colocando el objeto AR-15 5,56mm
+[04:18:16] 8: AR-15 5,56mm
+[04:18:16] 0
+[04:18:16] Se encontro el objeto AR-15 5,56mm
+[04:18:16] Esta colocando el objeto AR-15 5,56mm
+[04:19:34] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:23:02] 
+[04:23:02] Server Plugins
+[04:23:02] --------------
+[04:23:02]  Loading plugin: crashdetect.dll
+[04:23:02]   CrashDetect plugin 4.21
+[04:23:02]   Loaded.
+[04:23:02]  Loading plugin: ucrp.dll
+[04:23:02]   Loaded.
+[04:23:02]  Loaded 2 plugins.
+
+[04:23:02] 
+[04:23:02] Filterscripts
+[04:23:02] ---------------
+[04:23:02]   Loaded 0 filterscripts.
+
+[04:23:02] ----------------------------------
+[04:23:02]     United Capital: Roleplay
+[04:23:02] ----------------------------------
+[04:23:02] Setting server password to: "loadserverwaitplease"
+[04:23:02] Number of vehicle models: 0
+[04:23:12] Server password has been removed.
+[04:23:12] Server Open!
+[04:23:34] [connection] incoming connection: 127.0.0.1:55765 id: 0
+[04:23:35] [join] Printf has joined the server (0:127.0.0.1)
+[04:23:53] 0: 2
+[04:23:53] 1: 8
+[04:23:53] 2: 52
+[04:23:53] 3: 1
+[04:23:53] 4: 0
+[04:23:53] 5: 0
+[04:23:53] 6: 0
+[04:23:53] 7: 0
+[04:23:53] 8: 0
+[04:23:53] 9: 0
+[04:23:53] 10: 0
+[04:23:53] 11: 0
+[04:23:53] Samsung (Negro)
+[04:24:07] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:35:23] 
+[04:35:23] Server Plugins
+[04:35:23] --------------
+[04:35:23]  Loading plugin: crashdetect.dll
+[04:35:23]   CrashDetect plugin 4.21
+[04:35:23]   Loaded.
+[04:35:23]  Loading plugin: ucrp.dll
+[04:35:23]   Loaded.
+[04:35:23]  Loaded 2 plugins.
+
+[04:35:23] 
+[04:35:23] Filterscripts
+[04:35:23] ---------------
+[04:35:23]   Loaded 0 filterscripts.
+
+[04:35:23] ----------------------------------
+[04:35:23]     United Capital: Roleplay
+[04:35:23] ----------------------------------
+[04:35:23] Setting server password to: "loadserverwaitplease"
+[04:35:23] Number of vehicle models: 0
+[04:35:33] Server password has been removed.
+[04:35:33] Server Open!
+[04:40:33] [connection] incoming connection: 127.0.0.1:50409 id: 0
+[04:40:34] [join] Printf has joined the server (0:127.0.0.1)
+[04:40:45] 0: 2
+[04:40:45] 1: 8
+[04:40:45] 2: 52
+[04:40:45] 3: 1
+[04:40:45] 4: 0
+[04:40:45] 5: 0
+[04:40:45] 6: 0
+[04:40:45] 7: 0
+[04:40:45] 8: 0
+[04:40:46] 9: 0
+[04:40:46] 10: 0
+[04:40:46] 11: 0
+[04:40:46] Samsung (Negro)
+[04:40:57] [part] Gianluca_Bianchi has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[04:41:25] 
+[04:41:25] Server Plugins
+[04:41:25] --------------
+[04:41:25]  Loading plugin: crashdetect.dll
+[04:41:25]   CrashDetect plugin 4.21
+[04:41:25]   Loaded.
+[04:41:25]  Loading plugin: ucrp.dll
+[04:41:25]   Loaded.
+[04:41:25]  Loaded 2 plugins.
+
+[04:41:25] 
+[04:41:25] Filterscripts
+[04:41:25] ---------------
+[04:41:25]   Loaded 0 filterscripts.
+
+[04:41:25] ----------------------------------
+[04:41:25]     United Capital: Roleplay
+[04:41:25] ----------------------------------
+[04:41:25] Setting server password to: "loadserverwaitplease"
+[04:41:25] Number of vehicle models: 0
+[04:41:35] Server password has been removed.
+[04:41:35] Server Open!
+[04:43:37] [connection] incoming connection: 127.0.0.1:62791 id: 0
+[04:43:37] [join] Printf has joined the server (0:127.0.0.1)
+[04:43:44] 0: 2
+[04:43:44] 1: 8
+[04:43:44] 2: 52
+[04:43:44] 3: 1
+[04:43:44] 4: 0
+[04:43:44] 5: 0
+[04:43:44] 6: 0
+[04:43:44] 7: 0
+[04:43:44] 8: 0
+[04:43:44] 9: 0
+[04:43:44] 10: 0
+[04:43:44] 11: 0
+[04:43:44] Samsung (Negro)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[05:04:54] 
+[05:04:54] Server Plugins
+[05:04:54] --------------
+[05:04:54]  Loading plugin: crashdetect.dll
+[05:04:54]   CrashDetect plugin 4.21
+[05:04:54]   Loaded.
+[05:04:54]  Loading plugin: ucrp.dll
+[05:04:54]   Loaded.
+[05:04:54]  Loaded 2 plugins.
+
+[05:04:54] 
+[05:04:54] Filterscripts
+[05:04:54] ---------------
+[05:04:54]   Loaded 0 filterscripts.
+
+[05:04:54] ----------------------------------
+[05:04:54]     United Capital: Roleplay
+[05:04:54] ----------------------------------
+[05:04:54] Setting server password to: "loadserverwaitplease"
+[05:04:54] Number of vehicle models: 0
+[05:05:04] Server password has been removed.
+[05:05:04] Server Open!
+[05:05:08] [connection] incoming connection: 127.0.0.1:63182 id: 0
+[05:05:08] [join] Gianluca_Bianchi has joined the server (0:127.0.0.1)
+[05:05:15] 0: 2
+[05:05:15] 1: 8
+[05:05:15] 2: 52
+[05:05:15] 3: 1
+[05:05:15] 4: 0
+[05:05:16] 5: 0
+[05:05:16] 6: 0
+[05:05:16] 7: 0
+[05:05:16] 8: 0
+[05:05:16] 9: 0
+[05:05:16] 10: 0
+[05:05:16] 11: 0
+[05:05:16] Samsung (Negro)
+[05:10:55] [part] Gianluca_Bianchi has left the server (0:1)

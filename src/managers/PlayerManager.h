@@ -2,8 +2,7 @@
 
 #include <unordered_map>
 #include <string>
-
-class Player;
+#include "../game/Player.h"
 
 class PlayerManager
 {

@@ -1,7 +1,7 @@
 #include <sampgdk/a_samp.h>
-#include "ChatManager.h"
-#include "PlayerManager.h"
 #include "../game/Player.h"
+#include "Message.h"
+#include "../managers/PlayerManager.h"
 #include "../utils/Constants.h"
 
 using namespace std;
@@ -9,33 +9,53 @@ using namespace std;
 static const float MESSAGE_DISTANCE = 20.f;
 static const float SHOUT_DISTANCE = 40.f;
 static const float EMOTE_DISTANCE = MESSAGE_DISTANCE - 2.f;
-void ChatManager::SystemMessage(Player* player, string message)
-{
-	SendClientMessage(player->GetID(), COLOR_GRAD1, message.c_str());
-}
 
-void ChatManager::UsageMessage(Player* player, string message)
+int Message::System(Player* player, string message)
 {
-	string fullMessage = "Usage: \"" + message + "\"";
+    string fullMessage = "{5b5b5b}* {FFFFFF}" + message;
 	SendClientMessage(player->GetID(), COLOR_GRAD1, fullMessage.c_str());
+
+	return 1;
 }
 
-void ChatManager::ErrorMessageInvalidPlayer(Player* player)
+int Message::Usage(Player* player, string message)
 {
-	ChatManager::SystemMessage(player, "Invalid {FFFFFF}player name or ID.");
+	string fullMessage = "{C60004}x {FFFFFF} Uso: " + message;
+	SendClientMessage(player->GetID(), COLOR_WHITE, fullMessage.c_str());
+
+	return 0;
 }
 
-void ChatManager::EmoteMessage(Player *player, string message, int color)
+int Message::Error(Player* player, string message)
 {
-	ChatManager::ProximityMessage(player, message, EMOTE_DISTANCE, COLOR_EMOTE);
+    string fullMessage = "{C60004}x {FFFFFF}" + message;
+    SendClientMessage(player->GetID(), COLOR_WHITE, fullMessage.c_str());
+
+	return 0;
 }
 
-void ChatManager::ProximityMessage(Player *player, string message, float distance, int color)
+int Message::Success(Player* player, string message)
 {
-	ProximityMessage(player, message, distance, color, color, color, color, color);
+    string fullMessage = "{062037}> {FFFFFF}" + message;
+    SendClientMessage(player->GetID(), COLOR_WHITE, fullMessage.c_str());
+
+	return 1;
 }
 
-void ChatManager::ProximityMessage(Player *player, string message, float distance, int color1, int color2, int color3, int color4, int color5)
+int Message::AdminSuccess(Player* player, string message)
+{
+    string fullMessage = "{FF0000}> {FFFFFF}" + message;
+    SendClientMessage(player->GetID(), COLOR_WHITE, fullMessage.c_str());
+
+	return 1;
+}
+
+void Message::Proximity(Player *player, string message, float distance, int color)
+{
+	Proximity(player, message, distance, color, color, color, color, color);
+}
+
+void Message::Proximity(Player *player, string message, float distance, int color1, int color2, int color3, int color4, int color5)
 {
 	Point3D position = player->GetPosition();
 	bool inVehicle = player->IsInVehicle();
@@ -76,4 +96,4 @@ void ChatManager::ProximityMessage(Player *player, string message, float distanc
 	}
 }
 
-ChatManager::~ChatManager() {}
+Message::~Message() {}

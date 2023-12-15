@@ -11,6 +11,6 @@ EXPORTS
     OnPlayerRequestSpawn
     OnPlayerSpawn
     OnPlayerDeath
+    OnPlayerText
 	OnPlayerCommandText
     OnDialogResponse
-    OnPlayerText

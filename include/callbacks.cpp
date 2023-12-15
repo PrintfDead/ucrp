@@ -3,7 +3,7 @@
 	otherwise you will get some linking errors because they are called without being defined.
 */
 
-#include "lib/streamer.hpp"
+#include "streamer.hpp"
 
 bool OnDynamicObjectMoved( int objectid )
 {
